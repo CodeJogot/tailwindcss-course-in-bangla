@@ -7,38 +7,38 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 ঠিক আছে ভাই 😊
 নিচে আমি তোমার Markdown টেবলটি এমনভাবে সাজিয়ে দিলাম যেখানে কোনো Chapter নাম্বার নেই, সব Text ফাঁকা রাখা হয়েছে শুধুমাত্র **“Watch Now”** গুলো রাখা হয়েছে ✅
 
-| Chapter | Topics | Video Explanation |
-| :-----: | :----: | :---------------: |
-|    [01](#chapter-01-introduction-to-tailwind-css)     |   [Introduction to TailwindCSS](#chapter-01-introduction-to-tailwind-css)     |   [Watch Now]()   |
-|     [02](#chapter-02-all-possible-ways-to-install-tailwind-css)    |  [All Possible Ways to Install Tailwind CSS](#chapter-02-all-possible-ways-to-install-tailwind-css)      |   [Watch Now]()   |
-|    [03](#chapter-03-understanding-tailwinds-utility-classes-in-depth)     |  [Understanding Tailwind’s Utility Classes in Depth](#chapter-03-understanding-tailwinds-utility-classes-in-depth)      |     Watch Now     |
-|   [04](#chapter-04-mastering-responsive-design-with-tailwind-css)      |  [Mastering Responsive Design with Tailwind CSS](#chapter-04-mastering-responsive-design-with-tailwind-css)      |     Watch Now     |
-|    [05](#chapter-05-understanding-layout-utilities--flexbox-and-grid-in-tailwind-css)     |  [Understanding Layout Utilities — Flexbox and Grid in Tailwind CSS](#chapter-05-understanding-layout-utilities--flexbox-and-grid-in-tailwind-css)      |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
-|         |        |     Watch Now     |
+|                                      Chapter                                       |                                                                      Topics                                                                       | Video Explanation |
+| :--------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: | :---------------: |
+|                   [01](#chapter-01-introduction-to-tailwind-css)                   |                                      [Introduction to TailwindCSS](#chapter-01-introduction-to-tailwind-css)                                      |   [Watch Now]()   |
+|            [02](#chapter-02-all-possible-ways-to-install-tailwind-css)             |                        [All Possible Ways to Install Tailwind CSS](#chapter-02-all-possible-ways-to-install-tailwind-css)                         |   [Watch Now]()   |
+|         [03](#chapter-03-understanding-tailwinds-utility-classes-in-depth)         |                 [Understanding Tailwind’s Utility Classes in Depth](#chapter-03-understanding-tailwinds-utility-classes-in-depth)                 |     Watch Now     |
+|          [04](#chapter-04-mastering-responsive-design-with-tailwind-css)           |                    [Mastering Responsive Design with Tailwind CSS](#chapter-04-mastering-responsive-design-with-tailwind-css)                     |     Watch Now     |
+| [05](#chapter-05-understanding-layout-utilities--flexbox-and-grid-in-tailwind-css) | [Understanding Layout Utilities — Flexbox and Grid in Tailwind CSS](#chapter-05-understanding-layout-utilities--flexbox-and-grid-in-tailwind-css) |     Watch Now     |
+|           [06](#chapter-06-tailwind-css-dark-mode--beginner-to-advanced)           |                     [Tailwind CSS Dark Mode — Beginner to Advanced](#chapter-06-tailwind-css-dark-mode--beginner-to-advanced)                     |     Watch Now     |
+|                [07](#chapter-07-tailwindcss-functions--directives)                 |                                [TailwindCSS Functions & Directives](#chapter-07-tailwindcss-functions--directives)                                |     Watch Now     |
+|                   [08](#chapter-08-tailwindcss-apply-directive)                    |                                     [TailwindCSS `@apply` Directive](#chapter-08-tailwindcss-apply-directive)                                     |     Watch Now     |
+|                   [09](#chapter-09-tailwindcss-layer-directive)                    |                                     [TailwindCSS `@layer` Directive](#chapter-09-tailwindcss-layer-directive)                                     |     Watch Now     |
+|                  [10](#chapter-10-tailwindcss-variants-directive)                  |                                  [TailwindCSS `@variants` Directive](#chapter-10-tailwindcss-variants-directive)                                  |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                                                                                    |                                                                                                                                                   |     Watch Now     |
 
 # 20 HTML & CSS Projects
 
@@ -256,11 +256,12 @@ Tailwind CSS development দ্রুত করে তোলে এই কার
 2. [Minimum Requirements](#minimum-requirements)
 3. [Different Ways to Install Tailwind CSS](#different-ways-to-install-tailwind-css)
 
-   * [A. Using CDN (Quick Start)](#a-using-cdn-quick-start)
-   * [B. Using Node.js (Official Method)](#b-using-nodejs-official-method)
-   * [C. Using Vite + Tailwind CSS (Modern Setup)](#c-using-vite--tailwind-css-modern-setup)
-   * [D. Using Laravel with Tailwind CSS](#d-using-laravel-with-tailwind-css)
-   * [E. Using Tailwind Play (Online Editor)](#e-using-tailwind-play-online-editor)
+   - [A. Using CDN (Quick Start)](#a-using-cdn-quick-start)
+   - [B. Using Node.js (Official Method)](#b-using-nodejs-official-method)
+   - [C. Using Vite + Tailwind CSS (Modern Setup)](#c-using-vite--tailwind-css-modern-setup)
+   - [D. Using Laravel with Tailwind CSS](#d-using-laravel-with-tailwind-css)
+   - [E. Using Tailwind Play (Online Editor)](#e-using-tailwind-play-online-editor)
+
 4. [Which Method Should You Use?](#which-method-should-you-use)
 5. [Common Mistakes and Fixes](#common-mistakes-and-fixes)
 
@@ -299,14 +300,14 @@ Tailwind CSS development দ্রুত করে তোলে এই কার
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Tailwind CDN</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 p-10">
-  <h1 class="text-3xl font-bold text-blue-600">Hello Tailwind (CDN)!</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tailwind CDN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 p-10">
+    <h1 class="text-3xl font-bold text-blue-600">Hello Tailwind (CDN)!</h1>
+  </body>
 </html>
 ```
 
@@ -374,7 +375,7 @@ npx tailwindcss init -p
 #### 📦 tailwind.config.js এ Content Path যুক্ত করুন:
 
 ```js
-content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"]
+content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"];
 ```
 
 #### 🎨 src/index.css:
@@ -418,7 +419,7 @@ npx tailwindcss init
 #### 📁 tailwind.config.js:
 
 ```js
-content: ["./resources/**/*.blade.php"]
+content: ["./resources/**/*.blade.php"];
 ```
 
 #### 🧪 Compile CSS:
@@ -462,10 +463,6 @@ npm run dev
 | Vite project এ style আসছে না   | index.css ফাইল import হয়েছে কিনা দেখুন                                        |
 | Laravel এ Tailwind কাজ করছে না | `resources/views` এবং `resources/css` ফোল্ডার `content` path এ আছে কিনা দেখুন |
 
-
-
-
-
 <div align="right">
     <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
 </div>
@@ -490,9 +487,9 @@ npm run dev
 
 **Utility Classes** Tailwind CSS-এর মূল ভিত্তি। প্রতিটি utility class শুধুমাত্র একটি কাজ করে — যেমন:
 
-* `text-red-500` → Text রঙ লাল করে
-* `bg-white` → Background সাদা করে
-* `p-4` → Padding দেয়
+- `text-red-500` → Text রঙ লাল করে
+- `bg-white` → Background সাদা করে
+- `p-4` → Padding দেয়
 
 📌 Traditional CSS-এ আপনি `class="button"` এর জন্য আলাদা CSS লিখেন, কিন্তু Tailwind-এ আপনি সরাসরি HTML-এর মধ্যেই সব class লিখে ফেলেন।
 
@@ -502,8 +499,8 @@ npm run dev
 
 Tailwind CSS-এর utility class গুলো বিভিন্ন Category তে ভাগ করা যায়:
 
-| Category     | Example                                     |
-| ------------ | ------------------------------------------- |
+| Category      | Example                                     |
+| ------------- | ------------------------------------------- |
 | ✅ Typography | `text-xl`, `font-bold`, `leading-tight`     |
 | ✅ Spacing    | `m-4`, `p-2`, `mb-6`, `py-3`                |
 | ✅ Colors     | `bg-red-500`, `text-gray-600`               |
@@ -560,9 +557,9 @@ Tailwind CSS-এর utility class গুলো বিভিন্ন Category �
 
 🧠 Shortcut:
 
-* `m` = margin
-* `p` = padding
-* `t`, `b`, `l`, `r`, `x`, `y` = top, bottom, left, right, horizontal, vertical
+- `m` = margin
+- `p` = padding
+- `t`, `b`, `l`, `r`, `x`, `y` = top, bottom, left, right, horizontal, vertical
 
 ---
 
@@ -571,9 +568,7 @@ Tailwind CSS-এর utility class গুলো বিভিন্ন Category �
 Tailwind CSS 100+ color shades দিয়ে থাকে।
 
 ```html
-<div class="bg-yellow-200 text-yellow-800 p-3">
-  Warning Alert!
-</div>
+<div class="bg-yellow-200 text-yellow-800 p-3">Warning Alert!</div>
 ```
 
 📌 Colors: `gray`, `red`, `blue`, `green`, `yellow`, `purple`, `pink`, etc.
@@ -592,20 +587,22 @@ Shades: `100` to `900`
 </div>
 ```
 
-* `flex` → Flexbox active
-* `justify-*` → Horizontal alignment
-* `items-*` → Vertical alignment
+- `flex` → Flexbox active
+- `justify-*` → Horizontal alignment
+- `items-*` → Vertical alignment
 
 ### 🔹 Grid:
 
 ```html
 <div class="grid grid-cols-3 gap-4">
-  <div>1</div><div>2</div><div>3</div>
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
 </div>
 ```
 
-* `grid-cols-3` → 3 column grid
-* `gap-4` → Grid gap
+- `grid-cols-3` → 3 column grid
+- `gap-4` → Grid gap
 
 ---
 
@@ -614,9 +611,7 @@ Shades: `100` to `900`
 Tailwind Mobile-first approach ফলো করে।
 
 ```html
-<p class="text-sm md:text-base lg:text-xl">
-  Responsive Text
-</p>
+<p class="text-sm md:text-base lg:text-xl">Responsive Text</p>
 ```
 
 | Breakpoint | Meaning  |
@@ -635,7 +630,9 @@ Tailwind Mobile-first approach ফলো করে।
 ### 🔹 Hover:
 
 ```html
-<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+<button
+  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+>
   Hover Me
 </button>
 ```
@@ -658,7 +655,9 @@ Tailwind Mobile-first approach ফলো করে।
 <div class="p-6 max-w-sm bg-white rounded-xl shadow-md space-y-4">
   <h2 class="text-xl font-semibold text-gray-800">Alim Hossain</h2>
   <p class="text-gray-600">Founder, CodeJogot</p>
-  <button class="bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-700">
+  <button
+    class="bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-700"
+  >
     Follow
   </button>
 </div>
@@ -667,7 +666,9 @@ Tailwind Mobile-first approach ফলো করে।
 ### 🛍️ Product Tag:
 
 ```html
-<span class="inline-block bg-green-200 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
+<span
+  class="inline-block bg-green-200 text-green-800 text-sm font-medium px-3 py-1 rounded-full"
+>
   In Stock
 </span>
 ```
@@ -740,10 +741,10 @@ Tailwind Mobile-first Approach ফলো করে। নিচে Breakpoint �
 
 📌 এখানে:
 
-* Mobile এ text-sm
-* Tablet এ text-base
-* Laptop এ text-lg
-* Desktop এ text-xl
+- Mobile এ text-sm
+- Tablet এ text-base
+- Laptop এ text-lg
+- Desktop এ text-xl
 
 ---
 
@@ -777,9 +778,7 @@ Tailwind Mobile-first Approach ফলো করে। নিচে Breakpoint �
 ### 🧪 Padding Example:
 
 ```html
-<div class="p-2 sm:p-4 md:p-6 lg:p-8 xl:p-10">
-  Responsive Padding
-</div>
+<div class="p-2 sm:p-4 md:p-6 lg:p-8 xl:p-10">Responsive Padding</div>
 ```
 
 ---
@@ -805,7 +804,9 @@ Tailwind Mobile-first Approach ফলো করে। নিচে Breakpoint �
 ### 🎓 Student Dashboard Card:
 
 ```html
-<div class="p-4 max-w-sm sm:max-w-md lg:max-w-xl mx-auto bg-white shadow rounded">
+<div
+  class="p-4 max-w-sm sm:max-w-md lg:max-w-xl mx-auto bg-white shadow rounded"
+>
   <h2 class="text-xl sm:text-2xl font-bold text-gray-800">Hello Student!</h2>
   <p class="text-sm sm:text-base text-gray-600 mt-2">
     Welcome to your responsive dashboard.
@@ -816,17 +817,15 @@ Tailwind Mobile-first Approach ফলো করে। নিচে Breakpoint �
 ### 🛍️ Product Grid:
 
 ```html
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+<div
+  class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+>
   <div class="bg-white p-4 shadow rounded">Product 1</div>
   <div class="bg-white p-4 shadow rounded">Product 2</div>
   <div class="bg-white p-4 shadow rounded">Product 3</div>
   <div class="bg-white p-4 shadow rounded">Product 4</div>
 </div>
 ```
-
-
-
-
 
 <div align="right">
     <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
@@ -859,13 +858,13 @@ Grid হলো দুই-মাত্রিক layout system। আপনি col
 
 ## 2️⃣ When to Use Flex and When to Use Grid? 🤔
 
-| Use Case                                        | Use Flexbox | Use Grid            |
-| ----------------------------------------------- | ----------- | ------------------- |
-| 🔹 এক লাইনে items সাজাতে                        | ✅           | ❌                   |
-| 🔹 দুই দিকের layout control করতে (row + column) | ❌           | ✅                   |
-| 🔹 Navbar, Button Row                           | ✅           | ❌                   |
-| 🔹 Product Gallery                              | ❌           | ✅                   |
-| 🔹 Center align item                            | ✅           | ✅ (but flex easier) |
+| Use Case                                        | Use Flexbox | Use Grid             |
+| ----------------------------------------------- | ----------- | -------------------- |
+| 🔹 এক লাইনে items সাজাতে                        | ✅          | ❌                   |
+| 🔹 দুই দিকের layout control করতে (row + column) | ❌          | ✅                   |
+| 🔹 Navbar, Button Row                           | ✅          | ❌                   |
+| 🔹 Product Gallery                              | ❌          | ✅                   |
+| 🔹 Center align item                            | ✅          | ✅ (but flex easier) |
 
 ---
 
@@ -882,8 +881,8 @@ Grid হলো দুই-মাত্রিক layout system। আপনি col
 
 ### 🔸 Direction:
 
-* `flex-row` (default)
-* `flex-col`
+- `flex-row` (default)
+- `flex-col`
 
 ```html
 <div class="flex flex-col">
@@ -894,11 +893,11 @@ Grid হলো দুই-মাত্রিক layout system। আপনি col
 
 ### 🔸 Justify Content:
 
-* `justify-start` / `justify-center` / `justify-between` / `justify-around` / `justify-end`
+- `justify-start` / `justify-center` / `justify-between` / `justify-around` / `justify-end`
 
 ### 🔸 Align Items:
 
-* `items-start` / `items-center` / `items-end`
+- `items-start` / `items-center` / `items-end`
 
 ### 🔸 Gap Between Items:
 
@@ -917,14 +916,16 @@ Grid হলো দুই-মাত্রিক layout system। আপনি col
 
 ```html
 <div class="grid grid-cols-3 gap-4">
-  <div>1</div><div>2</div><div>3</div>
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
 </div>
 ```
 
 ### 🔸 Grid Columns:
 
-* `grid-cols-1` থেকে `grid-cols-12` পর্যন্ত
-* `col-span-1`, `col-span-2` ইত্যাদি
+- `grid-cols-1` থেকে `grid-cols-12` পর্যন্ত
+- `col-span-1`, `col-span-2` ইত্যাদি
 
 ### 🔸 Grid Rows:
 
@@ -938,9 +939,7 @@ Grid হলো দুই-মাত্রিক layout system। আপনি col
 ### 🔸 Responsive Grid:
 
 ```html
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-  ...
-</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">...</div>
 ```
 
 ---
@@ -1000,17 +999,1928 @@ Grid হলো দুই-মাত্রিক layout system। আপনি col
 
 এই Chapter এ আপনি শিখলেন:
 
-* Flexbox ও Grid কী এবং পার্থক্য কী
-* কবে Flex ব্যবহার করবেন, কবে Grid
-* Tailwind CSS দিয়ে Flex ও Grid layout বানানোর নিয়ম
-* বাস্তব উদাহরণ (Navbar, Gallery, Dashboard)
-
+- Flexbox ও Grid কী এবং পার্থক্য কী
+- কবে Flex ব্যবহার করবেন, কবে Grid
+- Tailwind CSS দিয়ে Flex ও Grid layout বানানোর নিয়ম
+- বাস্তব উদাহরণ (Navbar, Gallery, Dashboard)
 
 <div align="right">
     <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
-# Chapter-06:
+# Chapter-06: Tailwind CSS Dark Mode — Beginner to Advanced
+
+## 📚 Table of Contents
+
+1. [What is Dark Mode?](#1-what-is-dark-mode-)
+2. [How Dark Mode Works in Tailwind](#2-how-dark-mode-works-in-tailwind-)
+3. [Setup Paths (CDN, Vite, Laravel)](#3-setup-paths-cdn-vite-laravel-)
+4. [Enable Dark Mode (class vs media)](#4-enable-dark-mode-class-vs-media-)
+5. [Using the `dark:` Variant](#5-using-the-dark-variant-)
+6. [Theme Toggle (3 Options)](#6-theme-toggle-3-options-)
+7. [Avoiding Flash (FOUC) + Persistence](#7-avoiding-flash-fouc--persistence-)
+8. [Component Patterns (Navbar, Card, Form, Button)](#8-component-patterns-navbar-card-form-button-)
+9. [Advanced Techniques (Scoped Dark, System-first, color-scheme)](#9-advanced-techniques-scoped-dark-systemfirst-color-scheme-)
+10. [Accessibility & Design Tips](#10-accessibility--design-tips-)
+11. [Testing & Debugging](#11-testing--debugging-)
+12. [Real-Life Examples (2 complete demos)](#12-real-life-examples-2-complete-demos-)
+13. [Mini-FAQ](#13-mini%E2%80%91faq-)
+
+---
+
+## 1) What is Dark Mode? 🌘
+
+**Dark Mode** মানে UI তে **dark background + light text**। লক্ষ্য—চোখে আরাম, AMOLED স্ক্রিনে battery save, আর আধুনিক লুক। Tailwind এ dark mode করা হয় **একটা মাত্র ভ্যারিয়েন্ট** দিয়ে: `dark:`—ব্যস!
+
+---
+
+## 2) How Dark Mode Works in Tailwind ⚙️
+
+Tailwind একটা **variant** দেয়: `dark:`।
+আপনি যেকোনো utility-র আগে `dark:` বসালে—**যখন পেজ dark mode**—তখন সেই স্টাইল apply হবে।
+
+- উদাহরণ: `text-gray-900 dark:text-gray-100`
+- State chaining: `hover:dark:bg-gray-700`, `focus:dark:ring-white` ইত্যাদি—**order গুরুত্বপূর্ণ নয়**, Tailwind handle করে।
+
+**Dark Mode কে চালু করার ২টা স্ট্র্যাটেজি**:
+
+1. `class` — আপনি নিজে `.dark` ক্লাস টগল করবেন (পূর্ণ নিয়ন্ত্রণ)।
+2. `media` — ইউজারের **system preference** (prefers-color-scheme) auto অনুসরণ করবে।
+
+---
+
+## 3) Setup Paths (CDN, Vite, Laravel) 🧭
+
+### A) Quick Try (CDN)
+
+```html
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  // Optional: CDN config
+  tailwind.config = { darkMode: "class" }; // or 'media'
+</script>
+```
+
+### B) Vite/Vanilla (Build)
+
+- Install: `npm i -D tailwindcss postcss autoprefixer`
+- Init: `npx tailwindcss init -p`
+- `tailwind.config.js` → content paths + darkMode
+
+```js
+module.exports = {
+  darkMode: "class", // or 'media'
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: { extend: {} },
+  plugins: [],
+};
+```
+
+- `src/input.css` এ:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+### C) Laravel + Vite (আপনার জন্য সবচেয়ে relevant) 💚
+
+`tailwind.config.js`
+
+```js
+module.exports = {
+  darkMode: "class",
+  content: [
+    "./resources/**/*.blade.php",
+    "./resources/**/*.js",
+    "./resources/**/*.vue",
+  ],
+  theme: { extend: {} },
+  plugins: [],
+};
+```
+
+`resources/css/app.css` এ Tailwind directives দিন:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+Blade layout `<html>` এ পরে দেখাবো কিভাবে `.dark` টগল করবেন।
+
+---
+
+## 4) Enable Dark Mode (class vs media) 🌓
+
+### Option 1: **class** (Recommended for UI toggle)
+
+`tailwind.config.js`
+
+```js
+module.exports = { darkMode: "class" /* ... */ };
+```
+
+- তারপর root element (usually `<html>`) এ `.dark` দিলে dark mode on।
+- আপনি JavaScript দিয়ে on/off করবেন।
+
+### Option 2: **media** (Auto follow system)
+
+```js
+module.exports = { darkMode: "media" /* ... */ };
+```
+
+- User যদি OS-এ Dark সেট করে, আপনার UI auto dark হবে।
+- Manual toggle দরকার হলে `class` স্ট্র্যাটেজি ভালো।
+
+**Which to choose?**
+
+- **Toggle দরকার** → `class` 👍
+- **Auto follow only** → `media` 👍
+
+---
+
+## 5) Using the `dark:` Variant 🌗
+
+```html
+<div
+  class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 p-6 rounded-xl"
+>
+  <h2 class="text-2xl font-bold">Hello Dark</h2>
+  <p class="text-gray-700 dark:text-gray-300">This adapts to the theme.</p>
+  <a
+    class="text-blue-600 hover:text-blue-700 dark:text-blue-400 hover:dark:text-blue-300"
+    >Read more</a
+  >
+</div>
+```
+
+**ব্যাখ্যা:**
+
+- Light mode: `bg-white text-gray-900`
+- Dark mode: `dark:bg-gray-900 dark:text-gray-100`
+- Hover chaining: `hover:dark:text-blue-300` — dark অবস্থায় hover করলে রঙ আলাদা।
+
+---
+
+## 6) Theme Toggle (3 Options) 🔁
+
+### A) **Basic toggle (no persistence)**
+
+```html
+<button
+  id="theme-toggle"
+  class="px-3 py-2 rounded bg-gray-200 dark:bg-gray-700"
+>
+  Toggle Theme
+</button>
+<script>
+  document.getElementById("theme-toggle").addEventListener("click", () => {
+    document.documentElement.classList.toggle("dark");
+  });
+</script>
+```
+
+- **Limit**: রিফ্রেশ দিলে থিম reset হবে।
+
+### B) **Persist with localStorage (Light/Dark)**
+
+```html
+<script>
+  // put this early in <head> to prevent flash
+  const userPref = localStorage.getItem("theme"); // 'light' | 'dark' | null
+  if (userPref === "dark") {
+    document.documentElement.classList.add("dark");
+  } else if (userPref === "light") {
+    document.documentElement.classList.remove("dark");
+  } else {
+    // No saved pref: follow system
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.documentElement.classList.add("dark");
+    }
+  }
+</script>
+
+<button id="toggle" class="px-3 py-2 rounded bg-gray-200 dark:bg-gray-700">
+  Toggle Theme
+</button>
+<script>
+  const toggle = document.getElementById("toggle");
+  toggle.addEventListener("click", () => {
+    const isDark = document.documentElement.classList.toggle("dark");
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+  });
+</script>
+```
+
+### C) **3-way: Light / Dark / System (pro level)**
+
+```html
+<div class="flex gap-2">
+  <button data-theme="light" class="px-2 py-1 border rounded">Light</button>
+  <button data-theme="dark" class="px-2 py-1 border rounded">Dark</button>
+  <button data-theme="system" class="px-2 py-1 border rounded">System</button>
+</div>
+
+<script>
+  const applyTheme = (mode) => {
+    if (mode === "dark") {
+      document.documentElement.classList.add("dark");
+    } else if (mode === "light") {
+      document.documentElement.classList.remove("dark");
+    } else {
+      // system
+      document.documentElement.classList.toggle(
+        "dark",
+        window.matchMedia("(prefers-color-scheme: dark)").matches
+      );
+    }
+  };
+
+  // initial
+  const saved = localStorage.getItem("theme-mode"); // 'light'|'dark'|'system'
+  applyTheme(saved || "system");
+
+  // react to system changes if in 'system'
+  window
+    .matchMedia("(prefers-color-scheme: dark)")
+    .addEventListener("change", (e) => {
+      if ((localStorage.getItem("theme-mode") || "system") === "system")
+        applyTheme("system");
+    });
+
+  document.querySelectorAll("[data-theme]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const mode = btn.getAttribute("data-theme");
+      localStorage.setItem("theme-mode", mode);
+      applyTheme(mode);
+    });
+  });
+</script>
+```
+
+---
+
+## 7) Avoiding Flash (FOUC) + Persistence 🚫✨
+
+**FOUC** = page load-এ হঠাৎ light → dark flash করা। প্রতিকার:
+
+1. **Preload script** (উপরে দেখানো) `<head>`-এ খুব প্রথমে চালান।
+2. চাইলে body-তে অল্প সময়ের জন্য `invisible`/`opacity-0` রেখে JS ready হলে remove করতে পারেন।
+3. CSS `color-scheme` ব্যবহার করলে native UI (scrollbar, form controls) থিম-সিঙ্ক হবে (নিচে দেখুন)।
+
+---
+
+## 8) Component Patterns (Navbar, Card, Form, Button) 🧩
+
+### A) Navbar with Toggle
+
+```html
+<nav
+  class="flex items-center justify-between p-4 bg-white dark:bg-gray-900 shadow"
+>
+  <span class="font-bold text-gray-900 dark:text-gray-100">MySite</span>
+  <button
+    id="nav-toggle"
+    class="px-3 py-2 rounded bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+  >
+    🌙 Toggle
+  </button>
+</nav>
+<script>
+  document.getElementById("nav-toggle").addEventListener("click", () => {
+    const isDark = document.documentElement.classList.toggle("dark");
+    localStorage.theme = isDark ? "dark" : "light";
+  });
+</script>
+```
+
+**কি হল?** Navbar-এর bg/text দুটোই `dark:` ভ্যারিয়েন্টে থিম বদলাবে।
+
+### B) Card
+
+```html
+<article
+  class="max-w-xl mx-auto p-6 rounded-2xl shadow bg-white dark:bg-gray-800"
+>
+  <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100">
+    Card Title
+  </h3>
+  <p class="mt-2 text-gray-700 dark:text-gray-300">
+    Supportive text that adapts.
+  </p>
+  <a
+    class="inline-flex mt-3 text-blue-600 hover:text-blue-700 dark:text-blue-400 hover:dark:text-blue-300"
+    >Read more →</a
+  >
+</article>
+```
+
+### C) Form + Focus Rings
+
+```html
+<label class="block text-sm text-gray-700 dark:text-gray-300 mb-1">Email</label>
+<input
+  class="w-full px-3 py-2 rounded border border-gray-300 dark:border-gray-700 
+         bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100
+         focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400"
+/>
+```
+
+### D) Button States
+
+```html
+<button
+  class="px-4 py-2 rounded-lg bg-gray-900 text-white hover:bg-black
+         dark:bg-gray-100 dark:text-gray-900 hover:dark:bg-gray-200"
+>
+  Action
+</button>
+```
+
+---
+
+## 9) Advanced Techniques (Scoped Dark, System-first, `color-scheme`) 🧠
+
+### A) Scoped Dark (component-level theme)
+
+একটা অংশ আলাদা dark করতে wrapper-এ `.dark` দিন:
+
+```html
+<section class="p-6 border rounded">
+  <div class="dark p-4 rounded bg-white dark:bg-gray-900">
+    <!-- এই div-টার ভেতরে dark variant কাজ করবে -->
+    <p class="text-gray-900 dark:text-gray-100">Scoped dark area only.</p>
+  </div>
+</section>
+```
+
+**Why?** Modal/Preview/Widget-এ আলাদা থিম দরকার হলে দারুণ কাজ দেয়।
+
+### B) System-first + Manual override
+
+- Start with **system** (head script দিয়ে auto apply)
+- User toggle করলে **localStorage.theme** সেট করে override।
+
+### C) Native UI sync with `color-scheme`
+
+Base layer-এ দিন:
+
+```css
+/* app.css */
+@layer base {
+  :root {
+    color-scheme: light dark;
+  }
+}
+```
+
+**ফায়দা**: scrollbar, form controls ব্রাউজারের native dark look নেবে।
+
+---
+
+## 10) Accessibility & Design Tips 🛟
+
+- **Contrast**: Text কমপক্ষে `AA` (4.5:1) রাখুন। `text-gray-300` on `bg-gray-900` safe.
+- **Pure black এড়ান**: `bg-gray-900/950` বেশি চোখ-বান্ধব; pure #000 তীব্র লাগে।
+- **Shadows**: Dark mode-এ subtle/softer shadow (`shadow` বা `shadow-md`) ব্যবহার করুন।
+- **Brand logo**: Light/Dark দুটো ভার্সন রাখুন। প্রয়োজনে `invert` utility: `dark:invert` (image টোন জটিল হলে আলাদা asset ভালো)।
+- **Focus styles**: Dark-এ `dark:focus:ring-white` এর মতো ring/use করুন।
+- **Charts/Images**: Dark-friendly palette দিন; overly saturated রঙ এড়ান।
+
+---
+
+## 11) Testing & Debugging 🧪
+
+- **Chrome DevTools** → Command Palette → “Rendering” → Emulate CSS media feature: `prefers-color-scheme: dark`.
+- **Common mistakes**
+
+  1. `tailwind.config.js` এ `darkMode` না সেট করা → `dark:` কাজ করবে না।
+  2. `.dark` ভুল element-এ দেয়া (e.g., `<body>` নয়, **`<html>`** এ দেওয়া best).
+  3. Content paths ভুল → classes purge হয়ে যাচ্ছে।
+  4. FOUC হচ্ছে → head-এ pre-apply script দিন (উপরে দেখানো)।
+
+---
+
+## 12) Real-Life Examples (2 complete demos) 🌍
+
+### 💡 Example 1: Blog Article Page (with persisted toggle)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      // prevent flash + persist
+      const pref = localStorage.getItem("theme");
+      if (pref === "dark") document.documentElement.classList.add("dark");
+      else if (pref === "light")
+        document.documentElement.classList.remove("dark");
+      else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.classList.add("dark");
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = { darkMode: "class" };
+    </script>
+    <title>Blog</title>
+  </head>
+  <body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <header class="max-w-3xl mx-auto flex items-center justify-between p-4">
+      <h1 class="text-2xl font-bold">CodeJogot Blog</h1>
+      <button
+        id="blog-toggle"
+        class="px-3 py-2 rounded bg-gray-200 dark:bg-gray-700"
+      >
+        🌙
+      </button>
+    </header>
+
+    <main class="max-w-3xl mx-auto p-4">
+      <article class="p-6 rounded-2xl shadow bg-white dark:bg-gray-800">
+        <h2 class="text-3xl font-extrabold">Tailwind Dark Mode — A to Z</h2>
+        <p class="mt-3 text-gray-700 dark:text-gray-300">
+          Beginner থেকে Advanced—সব এখানে।
+        </p>
+        <div class="mt-6 flex gap-3">
+          <span class="px-3 py-1 rounded bg-gray-100 dark:bg-gray-700"
+            >10 min read</span
+          >
+          <span class="px-3 py-1 rounded bg-gray-100 dark:bg-gray-700"
+            >Tailwind</span
+          >
+        </div>
+      </article>
+    </main>
+
+    <script>
+      document.getElementById("blog-toggle").addEventListener("click", () => {
+        const isDark = document.documentElement.classList.toggle("dark");
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+      });
+    </script>
+  </body>
+</html>
+```
+
+**কি শিখলেন?**
+
+- Head-এ pre-apply script → no flash.
+- Toggle → `localStorage` তে save.
+- `dark:` দিয়ে content রঙ বদল।
+
+---
+
+### 📊 Example 2: Dashboard Mini-Layout (Navbar + Sidebar + Cards)
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      const saved = localStorage.getItem("theme-mode");
+      const wantsDark = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
+      const mode = saved || "system";
+      document.documentElement.classList.toggle(
+        "dark",
+        mode === "dark" || (mode === "system" && wantsDark)
+      );
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = { darkMode: "class" };
+    </script>
+    <style>
+      /* optional: native UI sync */
+      :root {
+        color-scheme: light dark;
+      }
+    </style>
+  </head>
+  <body
+    class="min-h-screen bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100"
+  >
+    <!-- Navbar -->
+    <nav
+      class="flex items-center justify-between px-4 py-3 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800"
+    >
+      <div class="font-bold">CodeJogot Admin</div>
+      <div class="space-x-2">
+        <button data-theme="light" class="px-2 py-1 rounded border">
+          Light
+        </button>
+        <button data-theme="dark" class="px-2 py-1 rounded border">Dark</button>
+        <button data-theme="system" class="px-2 py-1 rounded border">
+          System
+        </button>
+      </div>
+    </nav>
+
+    <div class="grid grid-cols-12">
+      <!-- Sidebar -->
+      <aside
+        class="col-span-12 md:col-span-3 lg:col-span-2 p-4 bg-white dark:bg-gray-900 border-r border-gray-200 dark:border-gray-800"
+      >
+        <ul class="space-y-2">
+          <li>
+            <a
+              class="block px-3 py-2 rounded hover:bg-gray-100 hover:dark:bg-gray-800"
+              >Overview</a
+            >
+          </li>
+          <li>
+            <a
+              class="block px-3 py-2 rounded hover:bg-gray-100 hover:dark:bg-gray-800"
+              >Transactions</a
+            >
+          </li>
+          <li>
+            <a
+              class="block px-3 py-2 rounded hover:bg-gray-100 hover:dark:bg-gray-800"
+              >Budgets</a
+            >
+          </li>
+        </ul>
+      </aside>
+
+      <!-- Content -->
+      <main class="col-span-12 md:col-span-9 lg:col-span-10 p-6 space-y-4">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div
+            class="p-4 rounded-xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800"
+          >
+            <div class="text-sm text-gray-600 dark:text-gray-400">Revenue</div>
+            <div class="text-2xl font-bold mt-1">$12,340</div>
+          </div>
+          <div
+            class="p-4 rounded-xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800"
+          >
+            <div class="text-sm text-gray-600 dark:text-gray-400">
+              Active Users
+            </div>
+            <div class="text-2xl font-bold mt-1">1,248</div>
+          </div>
+          <div
+            class="p-4 rounded-xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800"
+          >
+            <div class="text-sm text-gray-600 dark:text-gray-400">
+              Bounce Rate
+            </div>
+            <div class="text-2xl font-bold mt-1">34%</div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      const apply = (m) => {
+        localStorage.setItem("theme-mode", m);
+        const sysDark = window.matchMedia(
+          "(prefers-color-scheme: dark)"
+        ).matches;
+        document.documentElement.classList.toggle(
+          "dark",
+          m === "dark" || (m === "system" && sysDark)
+        );
+      };
+      document
+        .querySelectorAll("[data-theme]")
+        .forEach((b) =>
+          b.addEventListener("click", () => apply(b.dataset.theme))
+        );
+      // react to system changes if 'system'
+      window
+        .matchMedia("(prefers-color-scheme: dark)")
+        .addEventListener("change", () => {
+          if ((localStorage.getItem("theme-mode") || "system") === "system")
+            apply("system");
+        });
+    </script>
+  </body>
+</html>
+```
+
+**কি শিখলেন?**
+
+- 3-way theme (Light/Dark/System).
+- Sidebar, cards—সব dark-friendly।
+- Native UI sync (`color-scheme`) optional।
+
+---
+
+## 13) Mini-FAQ ❓
+
+**Q1: `.dark` কোথায় দিবো—`<html>` নাকি `<body>`?**
+A: `<html>` এ দিলে safest; পুরো ডকুমেন্টে predictable ভাবে কাজ করে। 😊
+
+**Q2: `dark:` কি nested element-এ কাজ করে?**
+A: হ্যাঁ—যতক্ষণ না কোনো ancestor-এ `.dark` আছে (root বা scoped wrapper)।
+
+**Q3: আমি `media` ব্যবহার করছি; manual toggle চাই!**
+A: `media` ↔ `class` একসাথে মেশাবেন না। Manual toggle দরকার হলে `class` নিন, আর initial state-এ system follow করুন (উপরের head script দেখুন)।
+
+**Q4: Flash (FOUC) বন্ধ কিভাবে?**
+A: Head-এ pre-apply script রাখুন—CSS-এর আগেই। Optional body fade-in করতে পারেন।
+
+**Q5: Logo ইমেজ dark-এ অদৃশ্য!**
+A: দুটো asset ব্যবহার করুন (light/dark) বা `dark:invert` দিয়ে ট্রাই করুন (সব ইমেজে ভালো দেখায় না)।
+
+<div align="right">
+    <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-07: TailwindCSS Functions & Directives
+
+## Table of Contents 📚
+
+- [1. Introduction](#1-introduction)
+- [2. What are Directives?](#2-what-are-directives)
+- [3. What are Functions?](#3-what-are-functions)
+- [4. TailwindCSS v4 Directives in Detail](#4-tailwindcss-v4-directives-in-detail)
+
+  - [4.1 `@import`](#41-import)
+  - [4.2 `@theme`](#42-theme)
+
+- [5. TailwindCSS v4 Functions in Detail](#5-tailwindcss-v4-functions-in-detail)
+
+  - [5.1 `theme()`](#51-theme)
+  - [5.2 `screen()`](#52-screen)
+
+- [6. Real-Life Example #1: Custom Brand Colors](#6-real-life-example-1-custom-brand-colors)
+- [7. Real-Life Example #2: Responsive Card Layout](#7-real-life-example-2-responsive-card-layout)
+- [8. Best Practices & Common Mistakes](#8-best-practices--common-mistakes)
+- [9. Beginner-Friendly Practice Section](#9-beginner-friendly-practice-section)
+
+---
+
+## 1. Introduction
+
+TailwindCSS v4-এ **Functions** এবং **Directives** হল core building blocks যা আপনাকে Tailwind-এর ভিতরের ক্ষমতাগুলো ব্যবহার করার সুযোগ দেয়।
+
+- **Directives** — Tailwind-এর style layers (base, components, utilities) এবং theme values CSS-এ আনতে ব্যবহৃত হয়।
+- **Functions** — CSS-এ dynamic ভাবে Tailwind-এর theme এবং responsive breakpoints access করতে ব্যবহৃত হয়।
+
+এগুলো জানলে আপনি শুধু class লিখে style করতে পারবেন না, বরং **design system** তৈরির সময় reusable, consistent এবং maintainable কোড লিখতে পারবেন।
+
+---
+
+## 2. What are Directives?
+
+**Definition:** TailwindCSS directives হল বিশেষ CSS নির্দেশনা যা Tailwind compiler-কে বলে দেয় কী inject করতে হবে বা কীভাবে styles generate হবে।
+
+**Why use?**
+
+- আপনার CSS-এ Tailwind-এর core styles (base reset, components, utilities) আনতে।
+- Custom theme values define করে utilities generate করাতে।
+
+---
+
+## 3. What are Functions?
+
+**Definition:** Functions হল Tailwind প্রদত্ত helper যা CSS ফাইলের ভিতরে theme values বা responsive breakpoints ব্যবহার করার সুযোগ দেয়।
+
+**Why use?**
+
+- **theme()** → Tailwind config-এ define করা color, spacing, font size ইত্যাদি CSS-এ আনা যায়।
+- **screen()** → Named breakpoints দিয়ে responsive media queries সহজে লেখা যায়।
+
+---
+
+## 4. TailwindCSS v4 Directives in Detail
+
+### 4.1 `@import`
+
+**Purpose:** Tailwind v4-এ CSS ফাইলে Tailwind অন্তর্ভুক্ত করার মূল উপায়।
+
+```css
+/* app.css */
+@import "tailwindcss";
+```
+
+**Explanation:**
+
+- এই single line আপনার জন্য Tailwind-এর base, components, এবং utilities সব inject করে।
+- v3-এর মতো আলাদা `@tailwind base; @tailwind components; @tailwind utilities;` লেখার দরকার নেই।
+
+---
+
+### 4.2 `@theme`
+
+**Purpose:** Tailwind v4-এ theme variables define করার জন্য ব্যবহৃত হয়, যা থেকে utility classes generate হয়।
+
+```css
+/* app.css */
+@import "tailwindcss";
+
+@theme {
+  --color-brand-500: oklch(0.75 0.1 250);
+  --spacing-7: 1.75rem;
+}
+```
+
+**Explanation:**
+
+- `--color-brand-500` → এখন আপনি HTML-এ `bg-brand-500` বা `text-brand-500` ব্যবহার করতে পারবেন।
+- `--spacing-7` → এখন আপনি `p-7` বা `m-7` ব্যবহার করলে এই spacing value প্রযোজ্য হবে।
+- Design tokens এর মতো কাজ করে, যা consistency বজায় রাখতে সাহায্য করে।
+
+---
+
+## 5. TailwindCSS v4 Functions in Detail
+
+### 5.1 `theme()`
+
+**Purpose:** CSS ফাইলে Tailwind config বা @theme এ থাকা values আনার জন্য।
+
+```css
+.card {
+  background-color: theme("colors.brand.500");
+  padding: theme("spacing.7");
+}
+```
+
+**Explanation:**
+
+- `'colors.brand.500'` → আপনার `@theme` এ define করা color resolve করে।
+- `'spacing.7'` → `--spacing-7` এর মান এনে দেয়।
+- এর মাধ্যমে আপনি utilities-এর বাইরে custom CSS-এও theme values consistent ভাবে ব্যবহার করতে পারবেন।
+
+---
+
+### 5.2 `screen()`
+
+**Purpose:** CSS-এ named breakpoints ব্যবহার করে responsive design লেখা সহজ করা।
+
+```css
+@media screen(md) {
+  .card {
+    padding: theme("spacing.10");
+  }
+}
+```
+
+**Explanation:**
+
+- `screen(md)` → Tailwind config এর `md` breakpoint ব্যবহার করছে।
+- Responsive layout-এ একই breakpoint নাম HTML class (`md:`) এবং CSS উভয় জায়গায় match করে।
+
+---
+
+## 6. Real-Life Example #1: Custom Brand Colors
+
+**Goal:** Custom brand color define করে site-wide ব্যবহার করা।
+
+**CSS:**
+
+```css
+@import "tailwindcss";
+
+@theme {
+  --color-brand-500: oklch(0.72 0.15 250);
+}
+
+.button {
+  background-color: theme("colors.brand.500");
+  color: white;
+  padding: theme("spacing.4") theme("spacing.6");
+  border-radius: theme("spacing.2");
+}
+```
+
+**HTML:**
+
+```html
+<button class="button hover:bg-brand-600">Buy Now</button>
+```
+
+**Explanation:**
+
+- `@theme` এ custom color যোগ করায় HTML class (`bg-brand-500`, `hover:bg-brand-600`) এবং CSS দুই জায়গায় consistent color ব্যবহার হচ্ছে।
+
+---
+
+## 7. Real-Life Example #2: Responsive Card Layout
+
+**CSS:**
+
+```css
+@import "tailwindcss";
+
+.card {
+  padding: theme("spacing.4");
+  background-color: white;
+  border-radius: theme("spacing.2");
+}
+
+@media screen(md) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: theme("spacing.6");
+  }
+}
+```
+
+**HTML:**
+
+```html
+<div class="card">
+  <div>Content 1</div>
+  <div>Content 2</div>
+</div>
+```
+
+**Explanation:**
+
+- Mobile view → Single column।
+- `md` breakpoint এ → Two-column grid layout।
+- Spacing এবং gap values theme থেকে নেয়া হয়েছে consistency বজায় রাখতে।
+
+---
+
+## 8. Best Practices & Common Mistakes
+
+**✅ Best Practices**
+
+- Design tokens সবসময় `@theme` এ define করুন, যাতে project-wide consistency বজায় থাকে।
+- Custom CSS লিখতে হলে `theme()` ব্যবহার করুন যাতে config থেকে value resolve হয়।
+- Breakpoint নাম HTML এবং CSS উভয় জায়গায় match রাখুন (`md:` vs `screen(md)`)।
+
+**❌ Common Mistakes**
+
+- `@theme` এ define করা variable-এর নাম ভুল দিলে utility generate হবে না।
+- Arbitrary values বারবার ব্যবহার করা → Maintenance problem হতে পারে।
+- Breakpoint hardcode করলে config পরিবর্তন হলে CSS break হবে।
+
+---
+
+## 9. Beginner-Friendly Practice Section 🏋️‍♂️
+
+### **Practice Project:** "Responsive Product Card" 🛒
+
+**Goal:**
+
+- TailwindCSS v4 এর **@import**, **@theme**, **theme()**, এবং **screen()** ব্যবহার করে একটি সুন্দর Product Card বানানো।
+- Mobile থেকে Desktop এ responsive layout।
+- Custom brand color ও spacing define করে ব্যবহার করা।
+
+---
+
+### **Step 1: Setup TailwindCSS v4**
+
+**app.css**
+
+```css
+@import "tailwindcss";
+
+@theme {
+  --color-brand-500: oklch(0.75 0.15 250); /* Brand Primary Color */
+  --spacing-card-padding: 1.5rem; /* Custom Padding */
+}
+```
+
+**Explanation:**
+
+- `@import "tailwindcss";` → Tailwind-এর সব styles নিয়ে আসা।
+- `@theme` → Custom color ও spacing define করা যা HTML class ও CSS দুই জায়গায় ব্যবহার হবে।
+
+---
+
+### **Step 2: Card Base Styles (Using theme())**
+
+**app.css**
+
+```css
+.card {
+  background-color: white;
+  border-radius: theme("spacing.2");
+  padding: var(--spacing-card-padding);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+```
+
+**Explanation:**
+
+- `border-radius` → Tailwind theme থেকে নেওয়া।
+- `padding` → Custom spacing variable ব্যবহার করা।
+
+---
+
+### **Step 3: Responsive Layout (Using screen())**
+
+**app.css**
+
+```css
+@media screen(md) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: theme("spacing.6");
+  }
+}
+```
+
+**Explanation:**
+
+- Mobile view → Single column।
+- `md` breakpoint এ → দুই কলামের layout (Image + Details)।
+- Gap value theme থেকে আনা হয়েছে।
+
+---
+
+### **Step 4: HTML Structure**
+
+**index.html**
+
+```html
+<div class="card max-w-lg mx-auto">
+  <img src="product.jpg" alt="Product Image" class="w-full rounded" />
+  <div>
+    <h2 class="text-xl font-bold text-brand-500">Awesome Headphones</h2>
+    <p class="text-slate-600 my-2">
+      High-quality sound with noise cancellation feature.
+    </p>
+    <button
+      class="bg-brand-500 text-white px-4 py-2 rounded hover:bg-brand-600"
+    >
+      Buy Now
+    </button>
+  </div>
+</div>
+```
+
+**Explanation:**
+
+- `text-brand-500`, `bg-brand-500` → @theme এ define করা custom color ব্যবহার হচ্ছে।
+- Responsive breakpoints এবং custom variables এর মাধ্যমে পুরো card mobile এবং desktop এ সুন্দরভাবে কাজ করছে।
+
+---
+
+### **Step 5: Your Tasks**
+
+1. `--color-brand-600` variable যোগ করুন dark hover effect এর জন্য।
+2. Card এ price section যোগ করুন যা brand color এ highlight হবে।
+3. `lg` breakpoint এ card-এর padding theme() দিয়ে দ্বিগুণ করে দিন।
+
+<div align="right">
+    <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-08: TailwindCSS `@apply` Directive
+
+## Table of Contents 📚
+
+- [1. Introduction](#1-introduction)
+- [2. What is the `@apply` Directive?](#2-what-is-the-apply-directive)
+- [3. Why `@apply` is Useful?](#3-why-apply-is-useful)
+- [4. How `@apply` Works](#4-how-apply-works)
+- [5. Basic Syntax](#5-basic-syntax)
+- [6. Example: Button Component](#6-example-button-component)
+- [7. Using Variants with `@apply`](#7-using-variants-with-apply)
+- [8. Best Practices & Common Mistakes](#8-best-practices--common-mistakes)
+- [9. Real-Life Example #1: Alert Component](#9-real-life-example-1-alert-component)
+- [10. Real-Life Example #2: Card Component](#10-real-life-example-2-card-component)
+- [11. Beginner-Friendly Practice Section](#11-beginner-friendly-practice-section)
+
+---
+
+## 1. Introduction
+
+TailwindCSS মূলত utility-first approach ফলো করে—মানে আপনি সরাসরি HTML class attribute-এ utility classes লিখে style দেন। কিন্তু কিছু ক্ষেত্রে একই utilities বারবার লিখতে হলে কোড দীর্ঘ এবং কম maintainable হয়ে যায়।
+এই অবস্থায় **`@apply` directive** আপনাকে CSS ফাইলে utility classes compose করে reusable class বানানোর সুযোগ দেয়।
+
+---
+
+## 2. What is the `@apply` Directive?
+
+**Definition:**
+`@apply` TailwindCSS-এর একটি CSS directive যা utility classes-কে CSS class definition-এর মধ্যে লিখে compile-time এ actual CSS rules এ রূপান্তরিত করে।
+
+উদাহরণ:
+
+```css
+.btn {
+  @apply px-4 py-2 bg-blue-500 text-white rounded;
+}
+```
+
+এখানে `.btn` class compile হওয়ার পর Tailwind utility classes এর CSS output-এ merge হয়ে যাবে।
+
+---
+
+## 3. Why `@apply` is Useful?
+
+- **Reusability** → বারবার HTML-এ একই utilities না লিখে একবারে একটি reusable class তৈরি করা।
+- **Consistency** → টিমের সবাই একই look & feel পাবে, কারণ সবাই একই class ব্যবহার করছে।
+- **Maintainability** → ভবিষ্যতে পরিবর্তন এক জায়গায় করলেই সব জায়গায় আপডেট হবে।
+
+---
+
+## 4. How `@apply` Works
+
+- আপনি CSS ফাইল তৈরি করে সেখানে `@apply` ব্যবহার করতে পারবেন।
+- এটি utility classes resolve করে final CSS তৈরি করে, যা আপনার HTML-এ ব্যবহারযোগ্য হবে।
+- সাধারণত `@layer components` এর ভিতরে রাখা হয় যাতে proper style order বজায় থাকে।
+
+---
+
+## 5. Basic Syntax
+
+```css
+@layer components {
+  .class-name {
+    @apply utility-1 utility-2 utility-3;
+  }
+}
+```
+
+**Explanation:**
+
+- `@layer components` → Tailwind-এর component layer-এ style রাখে।
+- `.class-name` → আপনার custom class।
+- `@apply` এর পরে Tailwind utility classes এর list।
+
+---
+
+## 6. Example: Button Component
+
+```css
+@import "tailwindcss";
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 text-white font-semibold px-4 py-2 rounded-md 
+           hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-200;
+  }
+}
+```
+
+**HTML Usage:**
+
+```html
+<button class="btn-primary">Click Me</button>
+```
+
+**Explanation:**
+
+- `.btn-primary` class এ button-এর সব style bundled আছে।
+- Hover এবং Focus state-ও একই class-এর ভিতরে define করা হয়েছে।
+
+---
+
+## 7. Using Variants with `@apply`
+
+`@apply` দিয়ে আপনি responsive ও state variants ব্যবহার করতে পারবেন।
+
+```css
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded font-bold text-white bg-green-500 
+           hover:bg-green-600 md:px-6;
+  }
+}
+```
+
+**Explanation:**
+
+- `hover:bg-green-600` → Hover state এ background change হবে।
+- `md:px-6` → Medium breakpoint থেকে horizontal padding বড় হবে।
+
+---
+
+## 8. Best Practices & Common Mistakes
+
+**✅ Best Practices**
+
+- Component-level reusable styles বানানোর জন্য `@apply` ব্যবহার করুন।
+- State variants (`hover:`, `focus:`, `disabled:`) ও responsive prefixes (`sm:`, `md:`, `lg:`) একসাথে ব্যবহার করুন।
+- `@layer components` ব্যবহার করুন যাতে CSS order ঠিক থাকে।
+
+**❌ Common Mistakes**
+
+- Non-utility CSS property `@apply` দিয়ে লিখতে চাওয়া (যেমন `border-top-left-radius`) → Tailwind utility হিসেবে থাকতে হবে।
+- খুব বেশি nested বা unnecessary component বানানো → HTML-এ সরাসরি utility ব্যবহার করাই সহজ।
+
+---
+
+## 9. Real-Life Example #1: Alert Component
+
+```css
+@import "tailwindcss";
+
+@layer components {
+  .alert-success {
+    @apply bg-green-100 border border-green-300 text-green-800 px-4 py-3 rounded;
+  }
+
+  .alert-error {
+    @apply bg-red-100 border border-red-300 text-red-800 px-4 py-3 rounded;
+  }
+}
+```
+
+**HTML Usage:**
+
+```html
+<div class="alert-success">Data saved successfully!</div>
+<div class="alert-error">Something went wrong!</div>
+```
+
+---
+
+## 10. Real-Life Example #2: Card Component
+
+```css
+@import "tailwindcss";
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow p-6;
+  }
+
+  .card-title {
+    @apply text-xl font-bold mb-2;
+  }
+
+  .card-body {
+    @apply text-gray-700;
+  }
+}
+```
+
+**HTML Usage:**
+
+```html
+<div class="card">
+  <h2 class="card-title">Product Name</h2>
+  <p class="card-body">Product description goes here.</p>
+</div>
+```
+
+---
+
+## 11. Beginner-Friendly Practice Section 🏋️‍♂️
+
+### **Practice Project:** "Reusable Buttons Collection" 🔘
+
+**Goal:**
+
+- `@apply` ব্যবহার করে ৩টি reusable button class তৈরি করা: `.btn-primary`, `.btn-secondary`, `.btn-danger`।
+- Hover ও responsive padding যুক্ত করা।
+
+---
+
+**CSS (app.css):**
+
+```css
+@import "tailwindcss";
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 md:px-6;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-600 text-white px-4 py-2 rounded-md hover:bg-gray-700 md:px-6;
+  }
+
+  .btn-danger {
+    @apply bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 md:px-6;
+  }
+}
+```
+
+**HTML (index.html):**
+
+```html
+<button class="btn-primary">Save</button>
+<button class="btn-secondary">Cancel</button>
+<button class="btn-danger">Delete</button>
+```
+
+---
+
+**Your Tasks:**
+
+1. `.btn-primary` এর জন্য `focus:ring` যোগ করুন।
+2. `.btn-secondary` এর hover color আরও হালকা করুন।
+3. `.btn-danger` এর জন্য `disabled` state style দিন।
+
+<div align="right">
+    <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-09: TailwindCSS `@layer` Directive
+
+## Table of Contents 📚
+
+- [1. Introduction](#1-introduction)
+- [2. What is the `@layer` Directive?](#2-what-is-the-layer-directive)
+- [3. Why `@layer` is Important?](#3-why-layer-is-important)
+- [4. How `@layer` Works](#4-how-layer-works)
+- [5. Available Layers in TailwindCSS](#5-available-layers-in-tailwindcss)
+
+  - [5.1 `base`](#51-base)
+  - [5.2 `components`](#52-components)
+  - [5.3 `utilities`](#53-utilities)
+
+- [6. Basic Syntax](#6-basic-syntax)
+- [7. Example: Using `@layer` to Add Custom Styles](#7-example-using-layer-to-add-custom-styles)
+- [8. Why Not Write CSS Without `@layer`?](#8-why-not-write-css-without-layer)
+- [9. Best Practices & Common Mistakes](#9-best-practices--common-mistakes)
+- [10. Real-Life Example #1: Base Typography](#10-real-life-example-1-base-typography)
+- [11. Real-Life Example #2: Custom Components](#11-real-life-example-2-custom-components)
+- [12. Beginner-Friendly Practice Section](#12-beginner-friendly-practice-section)
+
+---
+
+## 1. Introduction
+
+TailwindCSS-এ **`@layer` directive** হলো একটি বিশেষ CSS নির্দেশনা যা আপনার custom styles-কে Tailwind-এর existing styles-এর সাথে **সঠিক order**-এ merge করতে সাহায্য করে।
+
+যদি আপনি custom CSS লিখেন কিন্তু সেটা Tailwind-এর generated CSS-এর সাথে সঠিক জায়গায় না থাকে, তবে **specificity problem** বা **override problem** হতে পারে। `@layer` এই সমস্যাগুলোর সমাধান দেয়।
+
+---
+
+## 2. What is the `@layer` Directive?
+
+**Definition:**
+`@layer` একটি CSS directive যা Tailwind-এর **তিনটি main layer** (base, components, utilities)-এর মধ্যে custom styles define করার জন্য ব্যবহৃত হয়।
+
+এটি Tailwind compiler-কে বলে দেয়,
+
+> "আমার এই CSS গুলো এই নির্দিষ্ট layer-এর অংশ হিসেবে ধরো।"
+
+---
+
+## 3. Why `@layer` is Important?
+
+- **Order Control:** Tailwind CSS তিনটি লেয়ার অনুযায়ী CSS output করে—Base → Components → Utilities।
+- **Avoid Specificity Issues:** সঠিক layer-এ custom CSS রাখলে default Tailwind styles-এর সাথে conflict হয় না।
+- **Better Maintainability:** Future update বা plugin install করলে style order predict করা যায়।
+
+---
+
+## 4. How `@layer` Works
+
+Tailwind CSS internally এই ক্রমে styles apply করে:
+
+1. **Base** styles (Normalize / Preflight CSS)
+2. **Component** styles (Pre-built UI components বা custom component styles)
+3. **Utilities** (Single-purpose classes যেমন `bg-red-500`, `text-center`)
+
+`@layer` ব্যবহার করে আপনি যেই layer-এ style লিখবেন, সেটি ঐ layer-এর output এর সাথে merge হয়ে যাবে।
+
+---
+
+## 5. Available Layers in TailwindCSS
+
+### 5.1 `base`
+
+**Purpose:** HTML elements-এর জন্য global style পরিবর্তন বা যোগ করা।
+
+```css
+@layer base {
+  h1 {
+    @apply text-3xl font-bold;
+  }
+  p {
+    @apply text-gray-700 leading-relaxed;
+  }
+}
+```
+
+**When to use:** যখন default element style override করতে হবে।
+
+---
+
+### 5.2 `components`
+
+**Purpose:** Reusable UI component classes তৈরি করার জন্য।
+
+```css
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700;
+  }
+}
+```
+
+**When to use:** যখন নির্দিষ্ট reusable style বানাতে হবে।
+
+---
+
+### 5.3 `utilities`
+
+**Purpose:** Custom single-purpose utility class বানানোর জন্য।
+
+```css
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+}
+```
+
+**When to use:** যখন Tailwind-এ built-in utility নেই, কিন্তু আপনাকে ছোট একটি utility দরকার।
+
+---
+
+## 6. Basic Syntax
+
+```css
+@layer base {
+  /* Base styles here */
+}
+
+@layer components {
+  /* Component styles here */
+}
+
+@layer utilities {
+  /* Utility styles here */
+}
+```
+
+---
+
+## 7. Example: Using `@layer` to Add Custom Styles
+
+```css
+@import "tailwindcss";
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow p-6;
+  }
+}
+
+@layer utilities {
+  .content-auto {
+    content-visibility: auto;
+  }
+}
+```
+
+**Explanation:**
+
+- `.card` → components layer-এ রাখা, কারণ এটা reusable component।
+- `.content-auto` → utilities layer-এ রাখা, কারণ এটা একক-purpose helper class।
+
+---
+
+## 8. Why Not Write CSS Without `@layer`?
+
+যদি আপনি শুধু এভাবে লেখেন:
+
+```css
+.card {
+  @apply bg-white rounded-lg shadow p-6;
+}
+```
+
+তাহলে Tailwind compiler এটিকে সঠিক layer-এর সাথে merge করবে না, ফলে style override order unpredictable হতে পারে।
+
+---
+
+## 9. Best Practices & Common Mistakes
+
+**✅ Best Practices**
+
+- Base styles element selector দিয়ে লিখুন (h1, p, a ইত্যাদি)।
+- Components layer-এ সব reusable classes রাখুন।
+- Utilities layer-এ শুধুমাত্র single-purpose helper classes রাখুন।
+
+**❌ Common Mistakes**
+
+- Components layer-এ global element styles রাখা।
+- Utilities layer-এ complex reusable component রাখা।
+- Layer ছাড়া CSS লিখে override problem তৈরি করা।
+
+---
+
+## 10. Real-Life Example #1: Base Typography
+
+```css
+@layer base {
+  h1 {
+    @apply text-4xl font-extrabold;
+  }
+  h2 {
+    @apply text-3xl font-bold;
+  }
+  p {
+    @apply text-gray-600 leading-relaxed;
+  }
+}
+```
+
+**Usage:**
+
+```html
+<h1>Main Title</h1>
+<h2>Sub Title</h2>
+<p>This is a paragraph text.</p>
+```
+
+---
+
+## 11. Real-Life Example #2: Custom Components
+
+```css
+@layer components {
+  .alert {
+    @apply px-4 py-3 rounded relative;
+  }
+  .alert-success {
+    @apply bg-green-100 text-green-800 border border-green-300;
+  }
+  .alert-error {
+    @apply bg-red-100 text-red-800 border border-red-300;
+  }
+}
+```
+
+**Usage:**
+
+```html
+<div class="alert alert-success">Your account has been created!</div>
+<div class="alert alert-error">Something went wrong!</div>
+```
+
+---
+
+## 12. Beginner-Friendly Practice Section 🏋️‍♂️
+
+### **Practice Project:** "Custom Blog Styles" ✍️
+
+**Goal:**
+
+- `@layer base` দিয়ে heading এবং paragraph style পরিবর্তন করা।
+- `@layer components` দিয়ে একটি `.blog-card` বানানো।
+- `@layer utilities` দিয়ে `.text-glow` utility বানানো।
+
+---
+
+**CSS (app.css):**
+
+```css
+@import "tailwindcss";
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold text-gray-900;
+  }
+  p {
+    @apply text-gray-700 leading-relaxed;
+  }
+}
+
+@layer components {
+  .blog-card {
+    @apply bg-white rounded-lg shadow p-6 hover:shadow-lg transition;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.7);
+  }
+}
+```
+
+**HTML (index.html):**
+
+```html
+<div class="blog-card">
+  <h1 class="text-glow">My First Blog Post</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+```
+
+**Your Tasks:**
+
+1. Base layer-এ `a` tag-এর জন্য link color যোগ করুন।
+2. `.blog-card` এ border radius আরও বড় করুন।
+3. `.text-glow` এর glow color আপনার পছন্দমতো পরিবর্তন করুন।
+
+<div align="right">
+    <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-10: TailwindCSS `@variants` Directive
+
+## Table of Contents 📚
+
+- [1. Introduction](#1-introduction-)
+- [2. What is `@variants`?](#2-what-is-variants-)
+- [3. Why & When to Use `@variants`](#3-why--when-to-use-variants-)
+- [4. How `@variants` Works (Concept)](#4-how-variants-works-concept-)
+- [5. Basic Syntax (with Full Explanation)](#5-basic-syntax-with-full-explanation-)
+- [6. Example #1: Hover Variant Utility](#6-example-1-hover-variant-utility-)
+- [7. Example #2: Multiple Variants (hover + focus)](#7-example-2-multiple-variants-hover--focus-)
+- [8. Example #3: Responsive Variants (sm, md)](#8-example-3-responsive-variants-sm-md-)
+- [9. Real-Life Component #1: Button with States](#9-real-life-component-1-button-with-states-)
+- [10. Real-Life Component #2: Card Shadow on Breakpoints](#10-real-life-component-2-card-shadow-on-breakpoints-)
+- [11. Best Practices ✅ & Common Mistakes ❌](#11-best-practices----common-mistakes-)
+- [12. Beginner-Friendly Practice Section 🏋️](#12-beginner-friendly-practice-section-)
+
+---
+
+## 1. Introduction 🧠
+
+TailwindCSS-এ **variants** মানে একটি utility-এর **contextual বা state-based** রূপ—যেমন `hover:`, `focus:`, `active:`, `disabled:`, অথবা responsive variants যেমন `sm:`, `md:` ইত্যাদি।
+**`@variants` directive** ব্যবহার করে আপনি **নিজের custom utilities**-কে এসব variant-এ **auto-generate** করাতে পারেন—যাতে `hover:your-utility`, `sm:your-utility`—এর মত ক্লাস তৈরি হয়।
+
+---
+
+## 2. What is `@variants`? 🔍
+
+`@variants` হলো একটি CSS directive যা Tailwind-এর compiler-কে বলে—
+
+> “এই ব্লকের ভিতরের ক্লাসগুলোর **এই-এই variant** versionগুলোও বানিয়ে দাও।”
+
+এর মানে আপনি একবার **মূল utility** লিখবেন; বাকি hover/focus/responsive versionগুলো Tailwind বানিয়ে দেবে।
+
+---
+
+## 3. Why & When to Use `@variants` 🧰
+
+- **Why:** একই স্টাইলের variant (hover/focus/active/…/sm/md/…) বারবার লিখতে না হয়—এক জায়গায় define, অনেক জায়গায় use।
+- **When:**
+
+  1. custom utility বানাতে হবে, এবং
+  2. সেই utility বিভিন্ন state/responsive breakpoint-এ ব্যবহার হবে।
+
+> নোট: অনেক সময় **বিকল্প হিসেবে** আপনি `@layer utilities`-এ utility লিখে **HTML-এ সরাসরি variant prefix** (যেমন `hover:` বা `md:`) ব্যবহার করেন। তবে `@variants` আপনাকে ঐ utility-এর variant **আগেই generate** করে রাখতে দেয়।
+
+---
+
+## 4. How `@variants` Works (Concept) ⚙️
+
+1. আপনি `@variants hover, focus, md`—এভাবে **এক বা একাধিক variant** উল্লেখ করেন।
+2. ব্লকের ভিতরে আপনার **custom utility** বা **component-like utility** লেখেন।
+3. Tailwind compile করার সময় ঐ utility-র variant-prefixed **নতুন ক্লাস**গুলো বানায়।
+
+---
+
+## 5. Basic Syntax (with Full Explanation) ✍️
+
+```css
+@import "tailwindcss";
+
+/* 1) variants ঘোষণা */
+@variants hover, focus {
+  /* 2) আপনার custom utility */
+  .u-brand-outline {
+    border: 2px solid #3b82f6; /* নীল outline */
+    color: #3b82f6; /* নীল টেক্সট */
+    background: transparent; /* ব্যাকগ্রাউন্ড ফাঁকা */
+    padding: 0.5rem 1rem; /* 8px x 16px */
+    border-radius: 0.375rem; /* 6px */
+    transition: 0.2s ease; /* স্মুথ ট্রানজিশন */
+  }
+}
+```
+
+**কিভাবে কাজ করছে:**
+
+- `@import "tailwindcss";` → Tailwind-কে project CSS-এ এনেছে।
+- `@variants hover, focus { ... }` → Tailwind-কে বলছে “ভিতরের utility-গুলোর **hover:** ও **focus:** prefixed versionও বানাও।”
+- `.u-brand-outline { ... }` → আপনার মূল utility class।
+- Compile হলে আপনি **এই তিনটি** ব্যবহার করতে পারবেন:
+
+  - `.u-brand-outline` (সাধারণ)
+  - `.hover:u-brand-outline` (শুধু hover-এ)
+  - `.focus:u-brand-outline` (শুধু focus-এ)
+
+**HTML ব্যবহার (উদাহরণ):**
+
+```html
+<button class="u-brand-outline">Normal</button>
+<button class="hover:u-brand-outline">Hover me</button>
+<button class="focus:u-brand-outline">Focus me</button>
+```
+
+- প্রথম বাটনে সবসময় স্টাইল থাকবে।
+- দ্বিতীয় বাটনে শুধুমাত্র **hover** করলে স্টাইল আসবে।
+- তৃতীয় বাটনে শুধুমাত্র **focus** (ক্লিক/কীবোর্ড ট্যাবে) করলে স্টাইল আসবে।
+
+---
+
+## 6. Example #1: Hover Variant Utility 🖱️
+
+```css
+@import "tailwindcss";
+
+@variants hover {
+  .u-glow {
+    /* বেসিক নীল বক্স-শেডো glow */
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.6);
+  }
+}
+```
+
+**কোড ব্যাখ্যা:**
+
+- `@variants hover` → `.u-glow`-এর **hover version** generate করবে।
+- `box-shadow` → নীলাভ glow effect।
+
+**HTML:**
+
+```html
+<div class="p-4 border rounded">No Glow</div>
+<div class="hover:u-glow p-4 border rounded">Hover to Glow</div>
+```
+
+- প্রথম div-এ কিছুই হবে না।
+- দ্বিতীয় div-এ **hover** করলেই glow effect দেখা যাবে (কারণ ক্লাসটি `hover:u-glow`)।
+
+---
+
+## 7. Example #2: Multiple Variants (hover + focus) 🧩
+
+```css
+@import "tailwindcss";
+
+@variants hover, focus {
+  .u-underline-animated {
+    position: relative;
+  }
+  .u-underline-animated::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background: currentColor; /* text color অনুযায়ী underline */
+    transition: width 0.2s ease;
+  }
+  /* hover/focus হলে width 100% হবে — এই rule টি variant দিয়ে তৈরি হবে */
+  .u-underline-animated:hover::after,
+  .u-underline-animated:focus::after {
+    width: 100%;
+  }
+}
+```
+
+**কোড ব্যাখ্যা:**
+
+- `@variants hover, focus` → `.u-underline-animated`-এর hover ও focus version বানাবে।
+- pseudo-element `::after` দিয়ে underline animation করা হয়েছে।
+- `currentColor` → টেক্সটের রঙের সাথে underline রঙ মিলবে।
+- `transition` → underline ধীরে ধীরে বাড়বে।
+
+**HTML:**
+
+```html
+<a href="#" class="u-underline-animated">Read more</a>
+```
+
+- Normal অবস্থায় underline width = 0, তাই দেখা যায় না।
+- Hover/Focus করলে width = 100% → animate হয়ে underline দেখা যায়।
+
+> টিপ: এখানে আমরা variant-prefixed ক্লাস আলাদা করে লিখিনি, কারণ utility-টাই pseudo-selector সহ design করা। তবুও `@variants` ব্লক থাকার ফলে hover/focus context-এ এই rules গুলো consistent ভাবে apply হবে।
+
+---
+
+## 8. Example #3: Responsive Variants (sm, md) 📱💻
+
+```css
+@import "tailwindcss";
+
+@variants sm, md {
+  .u-card-pad {
+    padding: 0.75rem; /* 12px */
+    border-radius: 0.5rem; /* 8px */
+    background: white;
+  }
+}
+```
+
+**কোড ব্যাখ্যা:**
+
+- `@variants sm, md` → `.u-card-pad`-এর responsive versions তৈরি করবে:
+
+  - `.sm:u-card-pad` → small breakpoint থেকে প্রযোজ্য
+  - `.md:u-card-pad` → medium breakpoint থেকে প্রযোজ্য
+
+- Padding/rounded/background সহ একটি ছোট utility তৈরি হয়েছে।
+
+**HTML:**
+
+```html
+<div class="p-2 bg-slate-50">No variant</div>
+<div class="sm:u-card-pad">From small screens & up</div>
+<div class="md:u-card-pad">From medium screens & up</div>
+```
+
+- প্রথমটি normal।
+- দ্বিতীয়টি **sm** থেকে padding+rounded+bg পাবে।
+- তৃতীয়টি **md** থেকে এই স্টাইল পাবে।
+
+---
+
+## 9. Real-Life Component #1: Button with States 🔘
+
+```css
+@import "tailwindcss";
+
+/* hover + focus + disabled ভ্যারিয়েন্টস */
+@variants hover, focus, disabled {
+  .u-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem; /* 8px 16px */
+    border-radius: 0.375rem; /* 6px */
+    font-weight: 600;
+    color: white;
+    background: #2563eb; /* blue-600 */
+    transition: background 0.15s ease, transform 0.15s ease;
+  }
+
+  /* hover হলে একটু dark */
+  .u-btn:hover {
+    background: #1d4ed8; /* blue-700 */
+  }
+
+  /* focus হলে outline ring */
+  .u-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.35);
+  }
+
+  /* disabled হলে dim + no pointer */
+  .u-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+  }
+}
+```
+
+**কিভাবে কাজ করছে:**
+
+- `@variants hover, focus, disabled` → `.u-btn`-এর hover/focus/disabled context rules গুলোকে Tailwind-এর variant system-এর সাথে গেঁথে দেয়।
+- `.u-btn` → বেস স্টাইল।
+- `:hover`, `:focus`, `:disabled` → state অনুযায়ী ভিজ্যুয়াল পরিবর্তন।
+
+**HTML:**
+
+```html
+<button class="u-btn">Save</button>
+<button class="u-btn" disabled>Disabled</button>
+```
+
+- প্রথমটি normal + hover/focus এ রিঅ্যাক্ট করবে।
+- দ্বিতীয়টি disabled → dim + not-allowed cursor।
+
+---
+
+## 10. Real-Life Component #2: Card Shadow on Breakpoints 🧱
+
+```css
+@import "tailwindcss";
+
+/* sm এবং md responsive variants */
+@variants sm, md {
+  .u-soft-card {
+    background: white;
+    border-radius: 0.75rem; /* 12px */
+    padding: 1rem; /* 16px */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.2s ease;
+  }
+
+  /* sm থেকে hover করলে shadow বাড়বে */
+  .u-soft-card:hover {
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+  }
+}
+```
+
+**কিভাবে কাজ করছে:**
+
+- `.sm:u-soft-card` দিলে **ছোট ডিভাইস থেকে** কার্ডের বেস স্টাইল আসবে।
+- একই ক্লাসে hover করলে shadow বৃদ্ধি পাবে—`@variants sm` ব্লকে থাকায় responsive context-এর সাথে সামঞ্জস্য থাকে।
+
+**HTML:**
+
+```html
+<div class="p-4 bg-slate-50">Plain</div>
+<div class="sm:u-soft-card">Responsive soft card (sm+)</div>
+<div class="md:u-soft-card">Responsive soft card (md+)</div>
+```
+
+---
+
+## 11. Best Practices ✅ & Common Mistakes ❌
+
+**✅ Best Practices**
+
+1. **Utility scope ছোট রাখুন**—single-purpose রাখলে reuse সহজ হয়।
+2. **Meaningful নাম দিন**—`u-` বা `util-` prefix ব্যবহার করলে বোঝা যায় এটা utility।
+3. **Just-enough variants**—অপ্রয়োজনীয় variant add করলে CSS সাইজ বাড়ে।
+4. **Combine with `@layer utilities`**—অনেক টিম `@variants` ব্লককে `@layer utilities`-এর ভেতরে রাখে order স্পষ্ট রাখতে।
+
+**❌ Common Mistakes**
+
+- **Component-like বড় ব্লক** `@variants`-এ ফেলা—utilities ছোট ও ফোকাসড রাখুন।
+- **সব variants জুড়ে দেয়া**—প্রকৃতপক্ষে যেগুলো দরকার শুধু সেগুলো দিন।
+- **Plain CSS লেখা কিন্তু variant prefix না ব্যবহার**—লক্ষ্য utility হলে variant prefix (`hover:your-utility`) দিয়ে ব্যবহার দেখুন।
+
+---
+
+## 12. Beginner-Friendly Practice Section 🏋️
+
+### Practice Project: **“Interactive Badges”** 🏷️
+
+**Goal:** একটি `.u-badge` utility বানাবেন যেটি—
+
+- **hover** করলে রঙ গাঢ় হবে,
+- **focus** করলে ring দেখাবে,
+- **sm** থেকে padding একটু বাড়বে।
+
+**Step-by-step CSS (with explanation):**
+
+```css
+@import "tailwindcss";
+
+/* 1) প্রয়োজনীয় variants ঘোষণা করছি */
+@variants hover, focus, sm {
+  /* 2) মূল utility */
+  .u-badge {
+    display: inline-block; /* ব্যাজ inline text-এর সাথে বসবে */
+    padding: 0.25rem 0.5rem; /* 4px 8px */
+    border-radius: 9999px; /* pill shape */
+    background: #f59e0b; /* amber-500 */
+    color: #111827; /* gray-900 */
+    font-weight: 600; /* semi-bold look */
+    transition: 0.15s ease; /* smooth interaction */
+  }
+
+  /* 3) hover state গাঢ় */
+  .u-badge:hover {
+    background: #d97706; /* amber-600 */
+  }
+
+  /* 4) focus ring */
+  .u-badge:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.35);
+  }
+
+  /* 5) sm breakpoint থেকে padding একটু বাড়াই */
+  @media (min-width: 640px) {
+    .u-badge {
+      padding: 0.375rem 0.75rem; /* 6px 12px */
+    }
+  }
+}
+```
+
+**HTML (try it):**
+
+```html
+<span class="u-badge" tabindex="0">New</span>
+<span class="hover:u-badge">Hover Only</span>
+<span class="focus:u-badge" tabindex="0">Focus Only</span>
+<span class="sm:u-badge">Small+ screens</span>
+```
+
+**কিভাবে কাজ করছে (এক নজরে):**
+
+- একটাই utility `.u-badge` লিখে `hover`, `focus`, `sm`—এই তিন **context**-এ ব্যবহারের সুযোগ পেলেন।
+- `hover:u-badge` → hover করলে স্টাইল নেবে।
+- `focus:u-badge` → কীবোর্ড ট্যাব/ক্লিক ফোকাসে ring আসবে।
+- `sm:u-badge` → ছোট স্ক্রিনের উপরে padding বড় হবে।
+
+**Your Tasks ✍️**
+
+1. **`active` variant** যোগ করে active হলে badge একটু scale up করবে।
+2. **`md` variant**-এ font-size বাড়িয়ে দিন।
+3. আরেকটি utility `.u-badge-outline` বানান—transparent ব্যাকগ্রাউন্ড + বর্ডার, hover/focus আচরণ একই।
+
+<div align="right">
+    <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-11:
+
+<div align="right">
+    <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-12:
 
 <div align="right">
     <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
@@ -1044,979 +2954,6 @@ Coming Soon...
 ### Project Source Codes
 
 [Source Codes](./project-02-simple-website-layout-with-basic-css/)
-
-<h3 align="right">
-    <b><a href="#learn-html-and-css-in-30-chapters">↥ Go to Top</a></b>
-</h3>
-
-# Chapter-24: CSS Media Queries, Sass (Syntactically Awesome Stylesheets)
-
-- [CSS Media Queries](#css-media-queries)
-- [Sass (Syntactically Awesome Stylesheets)](#sass-syntactically-awesome-stylesheets)
-- [Sass Assignment](#sass-assignment)
-
-## CSS Media Queries
-
-### Table of Contents
-
-1. [Introduction to CSS Media Queries](#introduction-to-css-media-queries)
-2. [Why Use Media Queries?](#why-use-media-queries)
-3. [Syntax of Media Queries](#syntax-of-media-queries)
-4. [Common Media Query Features](#common-media-query-features)
-   - [width and height](#width-and-height)
-   - [orientation](#orientation)
-   - [resolution](#resolution)
-   - [aspect-ratio](#aspect-ratio)
-5. [Using Multiple Media Queries](#using-multiple-media-queries)
-6. [Real-life Example of Using Media Queries](#real-life-example-of-using-media-queries)
-
-### 1. Introduction to CSS Media Queries
-
-**CSS Media Queries** হল CSS এর একটি technique যা আমাদের website এর layout এবং content কে বিভিন্ন device এর screen size, resolution, orientation (যেমন landscape বা portrait), ইত্যাদির উপর ভিত্তি করে adjust করতে সাহায্য করে। ধরুন, আপনার একটি webpage আছে যা desktop এ সুন্দরভাবে display হচ্ছে, কিন্তু যখন আপনি mobile এ সেটি দেখেন, তখন সবকিছু খুব ছোট দেখা যায়, বা layout ঠিকমতো fit হয় না। এই সমস্যা সমাধানের জন্য **Media Queries** ব্যবহার করা হয়, যা বিভিন্ন screen size এবং device অনুযায়ী আলাদা আলাদা CSS rules apply করতে দেয়।
-
-একটি responsive website তৈরি করতে **Media Queries** অপরিহার্য। Responsive মানে এমন একটি website যা বিভিন্ন device এর screen size অনুযায়ী নিজেকে adjust করে। এটি user experience উন্নত করে এবং website কে আরও user-friendly করে তোলে।
-
-### 2. Why Use Media Queries?
-
-**Media Queries** ব্যবহার করার মূল কারণ হলো responsive design তৈরি করা। Responsive design এমন একটি approach, যেখানে একটি website বিভিন্ন device এ (mobile, tablet, desktop) ভিন্ন ভিন্ন ভাবে present হয়, কিন্তু content এবং functionality একই থাকে। কেন Media Queries ব্যবহার করা উচিত:
-
-1. **Responsive Design:** আপনার website এর layout এবং elements dynamically পরিবর্তন করা যায় device এর screen size এর উপর ভিত্তি করে।
-
-2. **User Experience উন্নত করা:** Mobile এবং tablet user এর জন্য বিশেষ করে Media Queries ব্যবহার করে website এর look এবং feel সুন্দর করা যায়।
-
-3. **Mobile-First Approach:** এখনকার দিনে বেশিরভাগ user mobile থেকে website access করে। Media Queries ব্যবহার করে, আমরা mobile-first approach নিতে পারি, যা mobile device এ website কে সুন্দরভাবে display করে।
-
-4. **Performance Optimization:** Media Queries ব্যবহার করে unnecessary elements hide করা যায় smaller devices এ, যা website এর performance উন্নত করে।
-
-### 3. Syntax of Media Queries
-
-**Media Queries** এর মূল syntax টা খুবই simple। এটিতে `@media` keyword ব্যবহার করা হয়, এবং আমরা `media-type` এবং `media-features` ব্যবহার করে নির্দিষ্ট condition নির্ধারণ করি, যেটির উপর ভিত্তি করে CSS rules apply হবে।
-
-```css
-@media media-type and (media-feature) {
-  /* CSS rules */
-}
-```
-
-- **`media-type`:** এটি কোন media তে CSS apply হবে তা নির্ধারণ করে। যেমন `screen`, `print` ইত্যাদি।
-- **`media-feature`:** এটি device এর screen width, height, resolution, orientation ইত্যাদির উপর নির্ভর করে CSS apply করতে সাহায্য করে।
-
-##### Example:
-
-```css
-/* যদি screen width 600px বা এর কম হয়, তখন background color পরিবর্তন হবে */
-@media screen and (max-width: 600px) {
-  body {
-    background-color: lightgray;
-  }
-}
-```
-
-এখানে `@media screen and (max-width: 600px)` এর অর্থ, যখন screen এর width 600px বা এর কম হবে তখন CSS rule apply হবে। অর্থাৎ, mobile devices এ এই rule প্রযোজ্য হবে, যেখানে screen এর width সাধারণত ছোট।
-
-### 4. Common Media Query Features
-
-**Media Queries** এর মাধ্যমে আমরা বিভিন্ন media features ব্যবহার করে device-specific CSS apply করতে পারি। নিচে কিছু সাধারণ media features আলোচনা করা হলো, যা বিভিন্ন ধরনের devices এর সাথে কাজ করতে সাহায্য করে:
-
-#### 4.1 width and height
-
-**`width`** এবং **`height`** properties ব্যবহার করে আমরা device এর screen width এবং height অনুযায়ী CSS rules apply করতে পারি।
-
-##### Example:
-
-```css
-/* যদি screen এর max-width 768px হয়, তখন CSS rule প্রযোজ্য হবে */
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 16px; /* Mobile এ font size বড় হবে */
-  }
-}
-```
-
-**ব্যাখ্যা:** এই query অনুযায়ী, যদি screen এর width 768px বা তার কম হয় (যেমন tablet), তাহলে body এর font size 16px হবে।
-
-#### 4.2 orientation
-
-**`orientation`** property ব্যবহার করে আমরা device এর orientation অনুযায়ী CSS rules apply করতে পারি। Orientation বলতে বোঝায়, device টি portrait mode (উচ্চতা বেশি) নাকি landscape mode (প্রস্থ বেশি) তে আছে।
-
-##### Example:
-
-```css
-/* যদি device landscape orientation এ থাকে, তখন background color lightblue হবে */
-@media screen and (orientation: landscape) {
-  body {
-    background-color: lightblue;
-  }
-}
-```
-
-**ব্যাখ্যা:** এই CSS rule অনুযায়ী, যখন device টি landscape orientation এ থাকে, তখন body এর background color lightblue হবে।
-
-#### 4.3 resolution
-
-**`resolution`** property ব্যবহার করে আমরা high-resolution devices এর জন্য specific styles apply করতে পারি, যেমন Retina displays।
-
-##### Example:
-
-```css
-/* যদি device এর resolution কমপক্ষে 300dpi হয়, তখন images এর width 100% হবে */
-@media screen and (min-resolution: 300dpi) {
-  img {
-    width: 100%; /* High-resolution screen এর জন্য images responsive হবে */
-  }
-}
-```
-
-#### 4.4 aspect-ratio
-
-**`aspect-ratio`** property screen এর width এবং height এর ratio অনুযায়ী CSS rules apply করে।
-
-##### Example:
-
-```css
-/* যদি screen এর aspect ratio 16:9 হয়, তাহলে video element এর max-width 100% হবে */
-@media screen and (aspect-ratio: 16/9) {
-  video {
-    max-width: 100%;
-  }
-}
-```
-
-**ব্যাখ্যা:** এই rule অনুযায়ী, 16:9 aspect ratio বিশিষ্ট screens (যেমন টেলিভিশন, widescreen monitors) এ video element 100% width নিবে।
-
-### 5. Using Multiple Media Queries
-
-**Multiple Media Queries** একসাথে ব্যবহার করে আমরা একাধিক conditions এর উপর ভিত্তি করে CSS rules apply করতে পারি। Media queries কে chain করা যায় `and`, `or`, এবং `not` operators ব্যবহার করে।
-
-##### Example:
-
-```css
-/* যদি screen এর width 600px থেকে 1200px এর মধ্যে হয়, তাহলে background color lightgreen হবে */
-@media screen and (min-width: 600px) and (max-width: 1200px) {
-  body {
-    background-color: lightgreen;
-  }
-}
-```
-
-**ব্যাখ্যা:** এখানে screen এর width যদি 600px এবং 1200px এর মধ্যে হয়, তাহলে body এর background color lightgreen হবে। অর্থাৎ, এই range এর মধ্যে থাকা screens এর জন্য এই rule apply হবে।
-
-### 6. Real-life Example of Using Media Queries
-
-#### Scenario: Creating a Responsive Layout for Multiple Devices
-
-ধরুন, আপনি এমন একটি webpage তৈরি করতে চান যেখানে mobile, tablet, এবং desktop devices এর জন্য responsive design থাকবে। নিচে একটি উদাহরণ দেওয়া হলো:
-
-##### Example:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Layout</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-
-      header {
-        background-color: #333;
-        color: white;
-        padding: 10px;
-        text-align: center;
-      }
-
-      main {
-        padding: 20px;
-      }
-
-      /* Default styles for desktop devices */
-      .container {
-        display: grid;
-        grid-template-columns: 1fr 3fr;
-        gap: 20px;
-      }
-
-      .sidebar {
-        background-color: #f4f4f4;
-        padding: 20px;
-      }
-
-      .content {
-        background-color: #e4e4e4;
-        padding: 20px;
-      }
-
-      /* Styles for tablets (768px or less) */
-      @media screen and (max-width: 768px) {
-        .container {
-          grid-template-columns: 1fr;
-        }
-      }
-
-      /* Styles for mobile devices (600px or less) */
-      @media screen and (max-width: 600px) {
-        header {
-          font-size: 1.2em;
-        }
-
-        main {
-          padding: 10px;
-        }
-
-        .sidebar,
-        .content {
-          padding: 10px;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Responsive Web Design</h1>
-    </header>
-    <main class="container">
-      <aside class="sidebar">
-        <h2>Sidebar</h2>
-        <p>This is the sidebar content.</p>
-      </aside>
-      <section class="content">
-        <h2>Main Content</h2>
-        <p>This is the main content of the page.</p>
-      </section>
-    </main>
-  </body>
-</html>
-```
-
-**Explanation:**
-
-1. **Desktop Layout:** Default grid layout ব্যবহার করে sidebar এবং main content কে side-by-side দেখানো হয়েছে।
-2. **Tablet Layout:** 768px বা এর চেয়ে ছোট screens এর জন্য grid layout কে one-column layout এ পরিবর্তন করা হয়েছে।
-3. **Mobile Layout:** 600px বা এর চেয়ে ছোট screens এর জন্য padding কমানো হয়েছে এবং header এর font size adjust করা হয়েছে।
-
-## Sass (Syntactically Awesome Stylesheets)
-
-### Table of Contents
-
-1. [Introduction to Sass](#introduction-to-sass)
-2. [Why Use Sass?](#why-use-sass)
-3. [Installation and Setup](#installation-and-setup)
-4. [Sass Syntax](#sass-syntax)
-   - [Nesting](#nesting)
-   - [Variables](#variables)
-   - [Partials and Import](#partials-and-import)
-   - [Mixins](#mixins)
-   - [Inheritance](#inheritance)
-   - [Functions](#functions)
-   - [If/Else](#ifelse)
-   - [Loop & Interpolation](#loop-and-interpolation)
-5. [Real-life Example of Using Sass](#real-life-example-of-using-sass)
-6. [SCSS to CSS Conversion: A Project Example](#scss-to-css-conversion-a-project-example)
-7. [Conclusion](#conclusion)
-
----
-
-### 1. Introduction to Sass
-
-**Sass (Syntactically Awesome Stylesheets)** হলো CSS এর একটি extension, যা CSS code আরও সহজ, maintainable এবং powerful করতে সহায়ক। এটি আপনাকে variables, nesting, mixins, inheritance, functions, এবং আরও অনেক সুবিধা প্রদান করে, যা traditional CSS এ পাওয়া যায় না। এখানে আমরা Sass এর বিভিন্ন ফিচার এবং ব্যবহারিক উদাহরণ আলোচনা করব।
-
----
-
-### 2. Why Use Sass?
-
-বড় বা ছোট যেকোনো project এ Sass ব্যবহার করার অনেক কারণ আছে, বিশেষ করে CSS এর limitations কাটিয়ে ওঠার জন্য। নিচে কিছু কারণ আলোচনা করা হলো:
-
-1. **Code Reuse:** Sass এ variables এবং mixins ব্যবহার করে একই ধরনের CSS properties বারবার লিখতে হয় না, আমরা এগুলো একবার define করে অনেক জায়গায় ব্যবহার করতে পারি।
-
-   ##### Example:
-
-   ```scss
-   $primary-color: #3498db; // Variable
-   $font-size-large: 18px;
-
-   body {
-     color: $primary-color;
-     font-size: $font-size-large;
-   }
-   ```
-
-2. **Maintainability:** বড় projects এ অনেক CSS code থাকে, যা manage করা কঠিন হতে পারে। Sass এর nesting, partials, এবং inheritance এর মতো feature গুলো এই code কে manageable এবং clean করে রাখে।
-
-3. **Modular Code:** **Partials** এবং **Import** feature গুলো code কে ছোট ছোট modules এ ভাগ করে রাখে, যা large stylesheets তৈরি করার জন্য খুবই উপযোগী।
-
-4. **Efficiency:** Sass এর calculations এবং functions ব্যবহার করে CSS values dynamically generate করা যায়, যেমন width বা padding এর উপর ভিত্তি করে অন্য properties change করা।
-
-5. **Better Structure:** Nested rules এবং reusable components এর মাধ্যমে complex CSS structure সহজে তৈরি করা যায়।
-
----
-
-### 3. Installation and Setup
-
-Sass ব্যবহার শুরু করার আগে এটি আপনার system এ install করতে হবে। নিচে কয়েকটি পদ্ধতি দেখানো হলো:
-
-#### Method 1: Install Sass Using Node.js/npm
-
-1. আপনার system এ Node.js এবং npm install করা থাকলে, নিচের command টি run করুন:
-
-   ```bash
-   npm install -g sass
-   ```
-
-2. Install করার পর, আপনি terminal এ `sass` command দিয়ে Sass files কে compile করতে পারবেন:
-
-   ```bash
-   sass input.scss output.css
-   ```
-
-   **Explanation:** এখানে `input.scss` হচ্ছে Sass file এবং `output.css` হচ্ছে final CSS file। Sass automatically SCSS file কে CSS এ compile করে দেয়।
-
-#### Method 2: Using a GUI Preprocessor (Koala, Scout)
-
-যদি আপনি command line ব্যবহার না করতে চান, তাহলে Koala বা Scout এর মতো graphical tools ব্যবহার করতে পারেন, যা সহজে Sass files কে compile করে CSS এ রূপান্তরিত করে।
-
----
-
-### 4. Sass Syntax
-
-Sass এর SCSS syntax সহজে CSS এর মতোই ব্যবহার করা যায়, যেখানে আমরা variables, nesting, mixins, inheritance ইত্যাদি সুবিধা ব্যবহার করতে পারি। নিচে নতুন দুটি টপিক **If/Else** এবং **Loop & Interpolation** ব্যাখ্যা করা হয়েছে।
-
-#### 4.1 Nesting
-
-**Nesting** Sass এর একটি খুবই জনপ্রিয় feature, যেখানে আমরা CSS rules কে HTML structure এর অনুরূপ ভাবে লিখতে পারি। সাধারণত HTML elements একে অপরের মধ্যে nested থাকে, আর Sass এর nesting feature এই relationship কে সহজে প্রকাশ করতে সাহায্য করে।
-
-##### Example:
-
-```scss
-nav {
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    li {
-      display: inline-block;
-
-      a {
-        text-decoration: none;
-        color: #333;
-
-        &:hover {
-          color: #000;
-        }
-      }
-    }
-  }
-}
-```
-
-**Explanation:**
-
-- আমরা HTML structure অনুযায়ী CSS rules কে nested করেছি। এটি CSS code কে পরিষ্কার এবং structured করে।
-- `&:hover` selector `a` element এর hover state handle করছে, যেখানে `&` current element কে নির্দেশ করছে।
-
----
-
-#### 4.2 Variables
-
-Sass এ **variables** ব্যবহার করে আমরা বারবার একই value লিখতে না গিয়ে একবার define করে multiple জায়গায় ব্যবহার করতে পারি।
-
-##### Example:
-
-```scss
-$primary-color: #3498db; // Primary color variable
-$padding-size: 15px;
-
-button {
-  background-color: $primary-color;
-  padding: $padding-size;
-  border: none;
-  border-radius: 5px;
-  color: white;
-}
-```
-
-**Explanation:**
-
-- `$primary-color` এবং `$padding-size` নামে variables তৈরি করা হয়েছে।
-- এরপর, button element এ এগুলো ব্যবহার করা হয়েছে। ফলে, যদি পরে color বা padding change করতে হয়, কেবল variable change করলেই হবে, পুরো code change করতে হবে না।
-
----
-
-#### 4.3 Partials and Import
-
-বড় projects এ অনেক CSS code থাকে। এই code কে ছোট ছোট অংশে ভাগ করে manage করার জন্য **Partials** এবং **Import** feature খুবই কার্যকর।
-
-##### Example:
-
-```scss
-// _variables.scss
-$primary-color: #3498db;
-$padding-size: 15px;
-
-// _buttons.scss
-button {
-  background-color: $primary-color;
-  padding: $padding-size;
-  border: none;
-  color: white;
-}
-
-// main.scss
-@import "variables";
-@import "buttons";
-```
-
-**Explanation:**
-
-- `_variables.scss` এবং `_buttons.scss` নামে দুইটি partial file তৈরি করা হয়েছে।
-- `main.scss` file এ এই দুটি partial file কে import করা হয়েছে।
-- এই পদ্ধতিতে বড় stylesheets গুলোকে ছোট অংশে ভাগ করে রাখা যায়, যা management এবং maintenance সহজ করে।
-
----
-
-#### 4.4 Mixins
-
-**Mixins** Sass এর reusable code block তৈরি করতে ব্যবহৃত হয়। যখন আমরা একই CSS code বারবার লিখতে চাই না, তখন mixins ব্যবহার করে সেই code কে একবার define করে পরে বিভিন্ন জায়গায় apply করা যায়।
-
-##### Example:
-
-```scss
-@mixin button-styles($color) {
-  background-color: $color;
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: white;
-}
-
-.primary-btn {
-  @include button-styles(#3498db);
-}
-
-.secondary-btn {
-  @include button-styles(#2ecc71);
-}
-```
-
-**Explanation:**
-
-- এখানে `button-styles` নামে একটি mixin তৈরি করা হয়েছে, যা button এর common styles define করে।
-- পরে, `primary-btn` এবং `secondary-btn` class গুলোতে এই mixin apply করা হয়েছে বিভিন্ন color দিয়ে।
-
----
-
-#### 4.5 Inheritance
-
-Sass এ **Inheritance** ব্যবহার করে আমরা একটি class এর styles অন্য class এ extend করতে পারি। এতে code repetition কমে এবং CSS কে আরো modular করা যায়।
-
-##### Example:
-
-```scss
-%button-base {
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-align: center;
-  display: inline-block;
-}
-
-.primary-btn {
-  @extend %button-base;
-  background-color: #3498db;
-  color: white;
-}
-
-.secondary-btn {
-  @extend %button-base;
-  background-color: #2ecc71;
-  color: white;
-}
-```
-
-**Explanation:**
-
-- `%button-base` নামে একটি placeholder তৈরি করা হয়েছে, যেটি button এর common styles ধারণ করে।
-- পরে, `primary-btn` এবং `secondary-btn` class এ এই placeholder কে extend করা হয়েছে, এবং button-specific styles যোগ করা হয়েছে।
-
----
-
-#### 4.6 Functions
-
-Sass এ **functions** ব্যবহার করে CSS properties এর উপর calculation করা যায়, যা CSS এ সম্ভব নয়। Functions এর মাধ্যমে dynamic CSS তৈরি করা যায়।
-
-##### Example:
-
-```scss
-@function calculate-padding($padding, $factor) {
-  @return $padding * $factor;
-}
-
-.container {
-  padding: calculate-padding(10px, 2); // Returns 20px
-}
-```
-
-**Explanation:**
-
-- `calculate-padding` নামে একটি function তৈরি করা হয়েছে, যা padding এর উপর calculation করে।
-- পরে `container` class এ function ব্যবহার করে padding এর value set করা হয়েছে।
-
----
-
-#### 4.7 If/Else
-
-Sass এ **If/Else** statement ব্যবহার করে CSS properties এর উপর conditions apply করা যায়। এটি condition অনুযায়ী different CSS rules apply করতে সাহায্য করে।
-
-##### Example:
-
-```scss
-$theme: dark;
-
-body {
-  @if $theme == dark {
-    background-color: #333;
-    color: white;
-  } @else {
-    background-color: white;
-    color: black;
-  }
-}
-```
-
-**Explanation:**
-
-- এখানে `$theme` নামে একটি variable তৈরি করা হয়েছে।
-- If condition এর মাধ্যমে check করা হচ্ছে, যদি `$theme` এর value `dark` হয়, তাহলে background এবং color সেট করা হবে। অন্যথায়, else block এর code run হবে।
-
----
-
-#### 4.8 Loop & Interpolation
-
-Sass এ **loops** ব্যবহার করে আমরা repetitive CSS code generate করতে পারি। সাধারণত CSS এ একই code বারবার লিখতে হয়, কিন্তু Sass এর loops এবং **interpolation** ব্যবহার করে এটি এড়ানো যায়। Sass এর loops দুই প্রকার: **for loop** এবং **each loop**। Interpolation এর মাধ্যমে dynamic selectors এবং properties তৈরি করা যায়।
-
-##### For Loop Example:
-
-```scss
-@for $i from 1 through 5 {
-  .margin-#{$i} {
-    margin: #{$i * 10}px;
-  }
-}
-```
-
-**Explanation:**
-
-- এখানে `@for` loop ব্যবহার করে 1 থেকে 5 পর্যন্ত একটি loop চালানো হয়েছে।
-- `#{$i}` এর মাধ্যমে class name এবং margin dynamically তৈরি করা হয়েছে। এটি output করবে `.margin-1`, `.margin-2`, ইত্যাদি।
-
-##### Each Loop Example:
-
-```scss
-$colors: (
-  primary: #3498db,
-  secondary: #2ecc71,
-  danger: #e74c3c,
-);
-
-@each $name, $color in $colors {
-  .btn-#{$name} {
-    background-color: $color;
-  }
-}
-```
-
-**Explanation:**
-
-- এখানে `@each` loop ব্যবহার করে একটি map এর উপর loop চালানো হয়েছে, যেখানে key-value pair ব্যবহার করা হয়েছে।
-- Interpolation এর মাধ্যমে `.btn-primary`, `.btn-secondary` ইত্যাদি class এবং তাদের background-color generate করা হয়েছে।
-
----
-
-### 5. Real-life Example of Using Sass
-
-#### Scenario: Responsive Navbar Design Using Sass Features
-
-একটি simple responsive navbar তৈরি করা হবে, যেখানে **variables**, **mixins**, **loops**, এবং **if/else** ব্যবহার করা হবে।
-
-##### SCSS Code:
-
-```scss
-// Variables
-$primary-color: #3498db;
-$secondary-color: #2ecc71;
-$breakpoint: 768px;
-$menu-items: ("Home", "About", "Services", "Contact");
-
-// Mixin for responsive design
-@mixin responsive($breakpoint) {
-  @media (max-width: $breakpoint) {
-    @content;
-  }
-}
-
-// Navbar Styles
-nav {
-  background-color: $primary-color;
-  padding: 10px;
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-
-    @include responsive($breakpoint) {
-      flex-direction: column;
-    }
-
-    @each $item in $menu-items {
-      li {
-        margin-right: 20px;
-        a {
-          color: white;
-          text-decoration: none;
-        }
-
-        &:hover {
-          color: $secondary-color;
-        }
-      }
-    }
-  }
-}
-```
-
----
-
-### 6. SCSS to CSS Conversion: A Project Example
-
-নীচে একটি বড় project এর উদাহরণ দেয়া হলো, যেখানে **SCSS** থেকে **CSS** এ কনভার্ট করার পর দেখানো হয়েছে কীভাবে CSS output হবে।
-
-##### SCSS Code:
-
-```scss
-// Variables
-$primary-color: #3498db;
-$secondary-color: #2ecc71;
-$font-size-large: 18px;
-$font-size-small: 14px;
-$breakpoint: 768px;
-
-// Mixin for responsive text
-@mixin responsive-text {
-  font-size: $font-size-large;
-  @media (max-width: $breakpoint) {
-    font-size: $font-size-small;
-  }
-}
-
-// Button Styles
-button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-
-  &.primary {
-    background-color: $primary-color;
-    color: white;
-  }
-
-  &.secondary {
-    background-color: $secondary-color;
-    color: white;
-  }
-
-  @include responsive-text;
-}
-
-// If/Else Example for theme
-$theme: dark;
-
-body {
-  @if $theme == dark {
-    background-color: #333;
-    color: white;
-  } @else {
-    background-color: white;
-    color: black;
-  }
-}
-```
-
-##### CSS Output (Compiled from SCSS):
-
-```css
-button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 18px;
-}
-@media (max-width: 768px) {
-  button {
-    font-size: 14px;
-  }
-}
-button.primary {
-  background-color: #3498db;
-  color: white;
-}
-button.secondary {
-  background-color: #2ecc71;
-  color: white;
-}
-
-body {
-  background-color: #333;
-  color: white;
-}
-```
-
-**Explanation:**
-
-- SCSS থেকে CSS এ কনভার্ট করার পরে আমরা দেখতে পাই যে সব SCSS file একত্রিত হয়ে single CSS file তৈরি হয়েছে।
-- এখানে SCSS এর variables, mixins, এবং nesting automatically CSS rules এ কনভার্ট হয়েছে।
-
----
-
-### Step 6: Creating a Project with Multiple SCSS Files
-
-নিচে একটি **SCSS-based প্রোজেক্ট** তৈরি করার পুরো প্রক্রিয়া দেখানো হয়েছে। এই প্রজেক্টে কয়েকটি SCSS file তৈরি করা হয়েছে এবং শেষে সেগুলো `main.scss` এ import করা হয়েছে।
-
-#### Project Structure:
-
-```
-project-folder/
-│
-├── scss/
-│   ├── _variables.scss
-│   ├── _mixins.scss
-│   ├── _header.scss
-│   ├── _footer.scss
-│   └── main.scss
-│
-└── css/
-    └── main.css (Generated from main.scss)
-```
-
-#### Step 1: \_variables.scss
-
-```scss
-// _variables.scss
-$primary-color: #3498db;
-$secondary-color: #2ecc71;
-$font-size-large: 18px;
-$font-size-small: 14px;
-$breakpoint: 768px;
-```
-
-#### Step 2: \_mixins.scss
-
-```scss
-// _mixins.scss
-@mixin responsive-text {
-  font-size: $font-size-large;
-
-  @media (max-width: $breakpoint) {
-    font-size: $font-size-small;
-  }
-}
-
-@mixin flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-```
-
-#### Step 3: \_header.scss
-
-```scss
-// _header.scss
-header {
-  background-color: $primary-color;
-  padding: 20px;
-
-  h1 {
-    color: white;
-    @include responsive-text;
-  }
-
-  nav {
-    ul {
-      list-style: none;
-      padding: 0;
-      display: flex;
-
-      li {
-        margin-right: 15px;
-
-        a {
-          color: white;
-          text-decoration: none;
-
-          &:hover {
-            color: $secondary-color;
-          }
-        }
-      }
-    }
-  }
-}
-```
-
-#### Step 4: \_footer.scss
-
-```scss
-// _footer.scss
-footer {
-  background-color: $secondary-color;
-  padding: 20px;
-  text-align: center;
-  color: white;
-
-  p {
-    font-size: $font-size-small;
-  }
-}
-```
-
-#### Step 5: main.scss
-
-```scss
-// main.scss
-@import "variables";
-@import "mixins";
-@import "header";
-@import "footer";
-```
-
-##### SCSS to CSS Conversion Command:
-
-```bash
-sass scss/main.scss css/main.css
-```
-
-##### Generated CSS (main.css):
-
-```css
-header {
-  background-color: #3498db;
-  padding: 20px;
-}
-
-header h1 {
-  color: white;
-  font-size: 18px;
-}
-
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 14px;
-  }
-}
-
-header nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-}
-
-header nav ul li {
-  margin-right: 15px;
-}
-
-header nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-header nav ul li a:hover {
-  color: #2ecc71;
-}
-
-footer {
-  background-color: #2ecc71;
-  padding: 20px;
-  text-align: center;
-  color: white;
-}
-
-footer p {
-  font-size: 14px;
-}
-```
-
-### Sass কিভাবে প্রজেক্টকে সহজ করেছে?
-
-1. **Modular Structure:** Sass ব্যবহার করে আমরা প্রজেক্টের CSS কে ছোট ছোট SCSS ফাইলে ভাগ করেছি, যা বড় প্রজেক্ট গুলোকে সহজে manage করতে সাহায্য করে। Header, footer, এবং অন্যান্য section গুলো আলাদা SCSS ফাইলে রাখা হয়েছে, যা কোডকে পরিষ্কার ও রিডেবল করে।
-
-2. **Variables:** SCSS এ variables ব্যবহার করে একই value বারবার লিখতে হয়নি। Color এবং font-size এর মতো common values গুলো একবার define করে বিভিন্ন স্থানে ব্যবহার করা হয়েছে।
-
-3. **Mixins এবং Reusability:** SCSS এর mixins ব্যবহার করে আমরা বারবার একই CSS properties লিখতে হয়নি। Responsive typography এবং flexbox center করার জন্য mixins তৈরি করা হয়েছে, যা বিভিন্ন স্থানে পুনরায় ব্যবহার করা হয়েছে।
-
-4
-
-. **Maintainability:** একবার যদি variables বা mixins change করতে হয়, তাহলে পুরো প্রজেক্ট জুড়ে পরিবর্তনটি reflect হয়। ফলে, পুরো প্রজেক্ট manage করা সহজ হয়।
-
----
-
-### Conclusion
-
-**Sass** CSS এর উপরে ভিত্তি করে একটি শক্তিশালী extension, যা বড় এবং জটিল projects এর জন্য CSS code কে সহজ, maintainable, এবং reusable করে তোলে। Variables, mixins, functions, loops, এবং conditions এর মাধ্যমে Sass ব্যবহার করে modern, responsive এবং maintainable CSS code তৈরি করা যায়। Beginner দের জন্য এটি CSS এর তুলনায় কিছুটা advanced হলেও, একবার Sass শেখা হয়ে গেলে CSS নিয়ে কাজ করা অনেক সহজ হয়ে যায়।
-
-## Sass Assignment
-
-### **Sass Project: Simple Responsive Card Layout – Step-by-Step Instructions**
-
-#### **Step 1: প্রোজেক্ট ফাইল সেটআপ:**
-
-- একটি নতুন ফোল্ডার তৈরি করুন `responsive-card-project` নামে।
-- এর মধ্যে `index.html`, `styles.scss`, এবং `styles.css` নামে তিনটি ফাইল তৈরি করুন।
-
-#### **Step 2: HTML কোড লেখা:**
-
-- `index.html` ফাইলে Basic HTML Structure লিখুন।
-- এরপর `card-container` নামে একটি ডিভের মধ্যে ৩টি `card` এলিমেন্ট যোগ করুন। প্রতিটি Card এ একটি Image, Title, Description, এবং একটি Button থাকবে।
-- স্টাইল করার জন্য `styles.css` ফাইলটি HTML এ যুক্ত করুন।
-
-#### **Step 3: Sass ভ্যারিয়েবল ডিক্লেয়ার:**
-
-- `styles.scss` ফাইলের শুরুতে Color এবং Spacing এর জন্য কিছু Sass Variables ডিক্লেয়ার করুন। যেমন: প্রাইমারি কালার, সেকেন্ডারি কালার, ব্যাকগ্রাউন্ড কালার, প্যাডিং ইত্যাদি।
-
-#### **Step 4: Mixin তৈরি:**
-
-- একটি Mixin তৈরি করুন যেটা ভিন্ন ভিন্ন ডিভাইসের জন্য মিডিয়া কুয়েরি সেট করতে সাহায্য করবে।
-- উদাহরণস্বরূপ, একটি Mixin বানান যা 'small' এবং 'medium' ডিভাইসের জন্য Responsive ডিজাইন করবে।
-
-#### **Step 5: Card Layout এর স্টাইলিং:**
-
-- `.card-container` ক্লাসের জন্য Flexbox ব্যবহার করে লেআউট তৈরি করুন।
-- `.card` ক্লাসের জন্য ব্যাকগ্রাউন্ড কালার, প্যাডিং, বর্ডার রেডিয়াস, এবং শ্যাডো যোগ করুন।
-- নেস্টিং ব্যবহার করে `.card` এর ভেতরের `.card-image`, `.card-title`, `.card-description`, এবং `.card-button` এর জন্য স্টাইল সেট করুন।
-
-#### **Step 6: Responsive Design এর জন্য Media Queries:**
-
-- আগের Step-এ তৈরি করা Mixin ব্যবহার করে মিডিয়া কুয়েরি প্রয়োগ করুন।
-- ছোট স্ক্রীনে `.card-container` এর লেআউট পরিবর্তন করে কলাম আকারে দেখান।
-
-#### **Step 7: Button এর Hover Effect:**
-
-- `.card-button` এর জন্য Hover Effect তৈরি করুন, যেখানে Button-এর ব্যাকগ্রাউন্ড কালার ডার্ক হবে।
-- এই কাজটি করার জন্য Sass এর Built-in Function (`darken`) ব্যবহার করুন।
-
-#### **Step 8: Sass কোড কম্পাইল:**
-
-- `styles.scss` ফাইলটি CSS এ কম্পাইল করুন এবং `styles.css` ফাইলটিতে সেভ করুন।
-- টার্মিনালে নিচের কমান্ডটি ব্যবহার করুন:
-  ```bash
-  sass styles.scss styles.css
-  ```
 
 <h3 align="right">
     <b><a href="#learn-html-and-css-in-30-chapters">↥ Go to Top</a></b>
