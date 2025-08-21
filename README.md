@@ -18,11 +18,11 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 |                [07](#chapter-07-tailwindcss-functions--directives)                 |                                [TailwindCSS Functions & Directives](#chapter-07-tailwindcss-functions--directives)                                |     Watch Now     |
 |                   [08](#chapter-08-tailwindcss-apply-directive)                    |                                     [TailwindCSS `@apply` Directive](#chapter-08-tailwindcss-apply-directive)                                     |     Watch Now     |
 |                   [09](#chapter-09-tailwindcss-layer-directive)                    |                                     [TailwindCSS `@layer` Directive](#chapter-09-tailwindcss-layer-directive)                                     |     Watch Now     |
-|                  [10](#chapter-10-tailwindcss-variants-directive)                  |                                  [TailwindCSS `@variants` Directive](#chapter-10-tailwindcss-variants-directive)                                  |     Watch Now     |
-|                                                                                    |                                                                                                                                                   |     Watch Now     |
-|                                                                                    |                                                                                                                                                   |     Watch Now     |
-|                                                                                    |                                                                                                                                                   |     Watch Now     |
-|                                                                                    |                                                                                                                                                   |     Watch Now     |
+|                  [10](#chapter-10-tailwindcss-variants-directive)                  |                                  [TailwindCSS `@variants` Directive](#chapter-10-tailwindcss-variants-directive)                                  |     Watch Now     |   
+|           [11](#chapter-11-tailwindcss-responsive--screen-directives)                                                                         |     [TailwindCSS Responsive & Screen Directives](#chapter-11-tailwindcss-responsive--screen-directives)                                                                                                                                              |     Watch Now     |
+|        [12](#chapter-12-tailwindcss-theme--screen-functions)                                                                            |      [TailwindCSS `theme()` & `screen()` Functions](#chapter-12-tailwindcss-theme--screen-functions)                                                                                                                                             |     Watch Now     |
+|          [13](#chapter-13-tailwindcss-configurations)                                                                          |           [TailwindCSS Configurations](#chapter-13-tailwindcss-configurations)                                                                                                                                        |     Watch Now     |
+|      [14](#chapter-14-tailwindcss-tailwindconfigjs--in-details)                                                                              |    [TailwindCSS `tailwind.config.js` — In Details](#chapter-14-tailwindcss-tailwindconfigjs--in-details)                                                                                                                                               |     Watch Now     |
 |                                                                                    |                                                                                                                                                   |     Watch Now     |
 |                                                                                    |                                                                                                                                                   |     Watch Now     |
 |                                                                                    |                                                                                                                                                   |     Watch Now     |
@@ -2914,13 +2914,1487 @@ TailwindCSS-এ **variants** মানে একটি utility-এর **contextu
     <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
-# Chapter-11:
+# Chapter-11: TailwindCSS Responsive & Screen Directives
+
+## Table of Contents 📚
+
+- [1. Introduction](#1-introduction)
+- [2. What are Responsive Directives in TailwindCSS?](#2-what-are-responsive-directives-in-tailwindcss)
+- [3. What is the `@screen` Directive?](#3-what-is-the-screen-directive)
+- [4. Why & When to Use These Directives](#4-why--when-to-use-these-directives)
+- [5. Breakpoints in TailwindCSS](#5-breakpoints-in-tailwindcss)
+- [6. Using Responsive Prefixes in HTML](#6-using-responsive-prefixes-in-html)
+- [7. Using `@screen` in CSS](#7-using-screen-in-css)
+- [8. Combining `@screen` with `@layer` and `@apply`](#8-combining-screen-with-layer-and-apply)
+- [9. Real-Life Example #1: Responsive Navigation Bar](#9-real-life-example-1-responsive-navigation-bar)
+- [10. Real-Life Example #2: Responsive Grid Layout](#10-real-life-example-2-responsive-grid-layout)
+- [11. Best Practices & Common Mistakes](#11-best-practices--common-mistakes)
+- [12. Beginner-Friendly Practice Section](#12-beginner-friendly-practice-section)
+
+---
+
+## 1. Introduction
+
+TailwindCSS-এ **Responsive Design** করা অত্যন্ত সহজ কারণ এটি **mobile-first** approach অনুসরণ করে। অর্থাৎ, ডিফল্ট স্টাইল ছোট ডিভাইসে প্রযোজ্য হয় এবং বড় ডিভাইসের জন্য নির্দিষ্ট breakpoints দিয়ে style override করা হয়।
+Responsive styling-এর জন্য আপনি সরাসরি HTML-এ **responsive prefixes** ব্যবহার করতে পারেন অথবা CSS-এ `@screen` directive দিয়ে breakpoints handle করতে পারেন।
+
+---
+
+## 2. What are Responsive Directives in TailwindCSS?
+
+Responsive directives মূলত **breakpoint-specific styling** প্রয়োগ করার shorthand।
+
+- HTML ক্লাসে prefix (`sm:`, `md:`, `lg:`, `xl:`, `2xl:`)
+- CSS ফাইলে `@screen` directive
+
+---
+
+## 3. What is the `@screen` Directive?
+
+**Definition:**
+`@screen` TailwindCSS-এর একটি directive যা CSS-এর ভিতরে responsive media queries সহজে লিখতে সাহায্য করে।
+
+উদাহরণ:
+
+```css
+@screen md {
+  .card {
+    padding: 2rem;
+  }
+}
+```
+
+এটি compile হয়ে হবে:
+
+```css
+@media (min-width: 768px) {
+  .card {
+    padding: 2rem;
+  }
+}
+```
+
+---
+
+## 4. Why & When to Use These Directives
+
+**Why:**
+
+- HTML-এ clutter কমাতে।
+- Complex বা reusable components তৈরি করতে।
+- Variants এবং media queries এক জায়গায় manage করতে।
+
+**When:**
+
+- Custom CSS লিখতে হচ্ছে।
+- Tailwind utility দিয়ে পুরো solution পাওয়া যাচ্ছে না।
+- Component library বা design system বানানোর সময়।
+
+---
+
+## 5. Breakpoints in TailwindCSS
+
+ডিফল্ট breakpoints:
+
+| Prefix | Min Width | Typical Usage        |
+| ------ | --------- | -------------------- |
+| `sm:`  | 640px     | Small devices+       |
+| `md:`  | 768px     | Medium devices+      |
+| `lg:`  | 1024px    | Large devices+       |
+| `xl:`  | 1280px    | Extra large devices+ |
+| `2xl:` | 1536px    | Very large screens+  |
+
+> আপনি `tailwind.config.js` এ এগুলো customize করতে পারবেন।
+
+---
+
+## 6. Using Responsive Prefixes in HTML
+
+```html
+<div class="bg-red-500 sm:bg-green-500 md:bg-blue-500 lg:bg-yellow-500">
+  Responsive Box
+</div>
+```
+
+**Explanation:**
+
+- Mobile → লাল
+- Small screen (≥640px) → সবুজ
+- Medium screen (≥768px) → নীল
+- Large screen (≥1024px) → হলুদ
+
+---
+
+## 7. Using `@screen` in CSS
+
+```css
+@import "tailwindcss";
+
+.card {
+  @apply p-4 bg-white rounded;
+}
+
+@screen md {
+  .card {
+    @apply p-8; /* md থেকে padding বড় */
+  }
+}
+
+@screen lg {
+  .card {
+    @apply grid grid-cols-2 gap-6;
+  }
+}
+```
+
+**Explanation:**
+
+- `.card` → ডিফল্ট padding `p-4`।
+- `@screen md` → Medium screen থেকে padding `p-8` হবে।
+- `@screen lg` → Large screen থেকে ২ কলামের grid হবে।
+
+---
+
+## 8. Combining `@screen` with `@layer` and `@apply`
+
+```css
+@layer components {
+  .btn {
+    @apply px-4 py-2 bg-blue-600 text-white rounded;
+  }
+
+  @screen md {
+    .btn {
+      @apply px-6 py-3; /* md থেকে বড় button */
+    }
+  }
+}
+```
+
+**Explanation:**
+
+- Base button style components layer-এ রাখা হয়েছে।
+- `@screen md` ব্যবহার করে responsive override দেওয়া হয়েছে।
+
+---
+
+## 9. Real-Life Example #1: Responsive Navigation Bar
+
+**CSS:**
+
+```css
+@import "tailwindcss";
+
+@layer components {
+  .nav-links {
+    @apply hidden md:flex gap-6;
+  }
+
+  .menu-btn {
+    @apply md:hidden block text-2xl;
+  }
+}
+```
+
+**HTML:**
+
+```html
+<nav class="flex items-center justify-between p-4 bg-gray-800 text-white">
+  <div class="text-xl font-bold">Brand</div>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+  <button class="menu-btn">☰</button>
+</nav>
+```
+
+**How it Works:**
+
+- Mobile এ nav-links hidden, menu button visible।
+- Medium+ এ nav-links visible, menu button hidden।
+
+---
+
+## 10. Real-Life Example #2: Responsive Grid Layout
+
+**CSS:**
+
+```css
+@import "tailwindcss";
+
+.grid-layout {
+  @apply grid grid-cols-1 gap-4;
+}
+
+@screen md {
+  .grid-layout {
+    @apply grid-cols-2;
+  }
+}
+
+@screen lg {
+  .grid-layout {
+    @apply grid-cols-4;
+  }
+}
+```
+
+**HTML:**
+
+```html
+<div class="grid-layout">
+  <div class="bg-red-200 p-4">Item 1</div>
+  <div class="bg-red-200 p-4">Item 2</div>
+  <div class="bg-red-200 p-4">Item 3</div>
+  <div class="bg-red-200 p-4">Item 4</div>
+</div>
+```
+
+**How it Works:**
+
+- Mobile → 1 column
+- Medium → 2 columns
+- Large → 4 columns
+
+---
+
+## 11. Best Practices ✅ & Common Mistakes ❌
+
+**✅ Best Practices**
+
+- Mobile-first approach মাথায় রেখে লিখুন।
+- Reusable components-এর responsive design CSS-এ handle করুন।
+- `@screen` directive component-specific styles-এর সাথে ব্যবহার করুন।
+
+**❌ Common Mistakes**
+
+- Breakpoints hardcode করা → config থেকে পড়া উচিত।
+- খুব বেশি variant ব্যবহার করে CSS সাইজ বাড়ানো।
+- HTML-এ responsive classes জটিল করে ফেলা।
+
+---
+
+## 12. Beginner-Friendly Practice Section 🏋️
+
+### Practice Task: **Responsive Product Card**
+
+**Goal:** Mobile-এ single-column, Medium-এ দুই-কলাম, Large-এ তিন-কলাম layout তৈরি করুন।
+
+**CSS:**
+
+```css
+@import "tailwindcss";
+
+.product-grid {
+  @apply grid grid-cols-1 gap-6;
+}
+
+@screen md {
+  .product-grid {
+    @apply grid-cols-2;
+  }
+}
+
+@screen lg {
+  .product-grid {
+    @apply grid-cols-3;
+  }
+}
+```
+
+**HTML:**
+
+```html
+<div class="product-grid">
+  <div class="bg-gray-200 p-6">Product 1</div>
+  <div class="bg-gray-200 p-6">Product 2</div>
+  <div class="bg-gray-200 p-6">Product 3</div>
+  <div class="bg-gray-200 p-6">Product 4</div>
+</div>
+```
+
+**Your Tasks:**
+
+1. Medium screen থেকে product cards-এ `shadow-lg` দিন।
+2. Large screen থেকে padding বাড়িয়ে `p-8` করুন।
 
 <div align="right">
     <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
-# Chapter-12:
+# Chapter-12: TailwindCSS `theme()` & `screen()` Functions
+
+## Table of Contents 📚
+
+- [1. Introduction](#1-introduction)
+- [2. What is the `theme()` Function?](#2-what-is-the-theme-function)
+- [3. How `theme()` Works](#3-how-theme-works)
+- [4. Example: Using `theme()` in CSS](#4-example-using-theme-in-css)
+- [5. What is the `screen()` Function?](#5-what-is-the-screen-function)
+- [6. How `screen()` Works](#6-how-screen-works)
+- [7. Example: Using `screen()` in CSS](#7-example-using-screen-in-css)
+- [8. Combining `theme()` and `screen()`](#8-combining-theme-and-screen)
+- [9. Real-Life Example #1: Responsive Card with Theme Colors](#9-real-life-example-1-responsive-card-with-theme-colors)
+- [10. Real-Life Example #2: Custom Utilities with Theme & Screen](#10-real-life-example-2-custom-utilities-with-theme--screen)
+- [11. Best Practices & Common Mistakes](#11-best-practices--common-mistakes)
+- [12. Beginner-Friendly Practice Section](#12-beginner-friendly-practice-section)
+
+---
+
+## 1. Introduction
+
+TailwindCSS শুধু HTML utility classes দিয়েই কাজ করে না—এটি আপনাকে CSS-এ **functions** দিয়ে Tailwind-এর config values এবং responsive breakpoints ব্যবহার করার সুযোগ দেয়। এর মধ্যে সবচেয়ে বেশি ব্যবহৃত দুটি ফাংশন হলো:
+
+- `theme()` → Tailwind config থেকে values আনা
+- `screen()` → Tailwind-এর breakpoints দিয়ে media query তৈরি করা
+
+---
+
+## 2. What is the `theme()` Function?
+
+**Definition:**
+`theme()` ফাংশন Tailwind config বা `@theme` directive-এ ডিফাইন করা values **CSS-এর মধ্যে** আনতে ব্যবহৃত হয়।
+
+এটি ব্যবহার করলে আপনার custom CSS এবং Tailwind-এর utility values **consistent** থাকে।
+
+---
+
+## 3. How `theme()` Works
+
+- Syntax:
+
+```css
+theme('property.key')
+```
+
+- **property.key** → Tailwind config-এর ভিতরের path
+- Example paths:
+
+  - `colors.blue.500`
+  - `spacing.4`
+  - `fontSize.xl`
+
+---
+
+## 4. Example: Using `theme()` in CSS
+
+```css
+@import "tailwindcss";
+
+.card {
+  background-color: theme("colors.blue.50"); /* config থেকে color আনা */
+  padding: theme("spacing.6"); /* config থেকে spacing আনা */
+  border-radius: theme("borderRadius.lg"); /* config থেকে radius আনা */
+}
+```
+
+**Explanation:**
+
+- `theme('colors.blue.50')` → Tailwind-এর default blue color-এর light shade।
+- `theme('spacing.6')` → `1.5rem` (24px) padding দিবে।
+- `theme('borderRadius.lg')` → Large radius config value ব্যবহার হবে।
+
+---
+
+## 5. What is the `screen()` Function?
+
+**Definition:**
+`screen()` ফাংশন CSS-এর মধ্যে Tailwind-এর breakpoint নাম ব্যবহার করে **media query** তৈরি করতে সাহায্য করে।
+
+---
+
+## 6. How `screen()` Works
+
+- Syntax:
+
+```css
+@media screen(md) {
+  ...;
+}
+```
+
+- `md` → Tailwind config-এ ডিফাইন করা medium breakpoint (`768px`)
+- `screen()` ফাংশন config থেকে min-width বের করে দেয়
+
+---
+
+## 7. Example: Using `screen()` in CSS
+
+```css
+@import "tailwindcss";
+
+@media screen(md) {
+  .card {
+    padding: theme("spacing.10"); /* md থেকে padding বাড়ানো */
+  }
+}
+```
+
+**Explanation:**
+
+- Mobile এ `.card` normal padding থাকবে।
+- `md` breakpoint (≥768px) এ `.card` এর padding config থেকে 2.5rem হবে।
+
+---
+
+## 8. Combining `theme()` and `screen()`
+
+```css
+@import "tailwindcss";
+
+.card {
+  background-color: theme("colors.gray.100");
+  padding: theme("spacing.4");
+}
+
+@media screen(lg) {
+  .card {
+    background-color: theme("colors.gray.200");
+    padding: theme("spacing.8");
+  }
+}
+```
+
+**Explanation:**
+
+- ডিফল্ট → হালকা gray এবং কম padding
+- Large screen (≥1024px) → একটু গাঢ় gray এবং বেশি padding
+
+---
+
+## 9. Real-Life Example #1: Responsive Card with Theme Colors
+
+```css
+@import "tailwindcss";
+
+.profile-card {
+  background-color: theme("colors.white");
+  border: 1px solid theme("colors.gray.200");
+  padding: theme("spacing.5");
+  border-radius: theme("borderRadius.lg");
+}
+
+@media screen(md) {
+  .profile-card {
+    padding: theme("spacing.8");
+    border-color: theme("colors.gray.300");
+  }
+}
+```
+
+**HTML:**
+
+```html
+<div class="profile-card">User Info</div>
+```
+
+**How it Works:**
+
+- Small screen → কম padding, হালকা border
+- Medium+ screen → বেশি padding, গাঢ় border
+
+---
+
+## 10. Real-Life Example #2: Custom Utilities with Theme & Screen
+
+```css
+@import "tailwindcss";
+
+@layer utilities {
+  .u-brand-bg {
+    background-color: theme("colors.blue.500");
+    color: theme("colors.white");
+  }
+
+  @media screen(lg) {
+    .u-brand-bg {
+      background-color: theme("colors.blue.700");
+    }
+  }
+}
+```
+
+**HTML:**
+
+```html
+<div class="u-brand-bg p-4">Brand Section</div>
+```
+
+**How it Works:**
+
+- ডিফল্ট → Blue 500 background
+- Large screen → Blue 700 background
+
+---
+
+## 11. Best Practices & Common Mistakes
+
+**✅ Best Practices**
+
+- Custom CSS লিখলে `theme()` দিয়ে config values ব্যবহার করুন → consistency থাকবে।
+- `screen()` দিয়ে breakpoints handle করলে future-proof হবে (config পরিবর্তন হলেও কাজ করবে)।
+
+**❌ Common Mistakes**
+
+- Hardcode color, spacing, breakpoint → পরে config পরিবর্তন হলে স্টাইল mismatch হবে।
+- `screen()` ভুলভাবে ব্যবহার করে responsive override না হওয়া।
+
+---
+
+## 12. Beginner-Friendly Practice Section 🏋️
+
+### Practice Task: **Responsive Banner**
+
+**Goal:**
+
+- Default → brand color background
+- Medium+ → padding বাড়ানো, background color পরিবর্তন
+- Large+ → text color পরিবর্তন
+
+**CSS:**
+
+```css
+@import "tailwindcss";
+
+.banner {
+  background-color: theme("colors.blue.500");
+  color: theme("colors.white");
+  padding: theme("spacing.4");
+}
+
+@media screen(md) {
+  .banner {
+    background-color: theme("colors.green.500");
+    padding: theme("spacing.8");
+  }
+}
+
+@media screen(lg) {
+  .banner {
+    color: theme("colors.yellow.300");
+  }
+}
+```
+
+**HTML:**
+
+```html
+<div class="banner">Welcome to Our Site</div>
+```
+
+**Your Tasks:**
+
+1. Small screen-এ font-size config থেকে আনুন (`fontSize.xl`)।
+2. Medium+ screen-এ border-radius config থেকে দিন।
+3. Large+ screen-এ border-color config থেকে দিন।
+
+<div align="right">
+    <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-13: TailwindCSS Configurations
+
+## Table of Contents 📚
+
+- [1. Introduction](#1-introduction)
+- [2. What is the Tailwind Configuration File?](#2-what-is-the-tailwind-configuration-file)
+- [3. Why Tailwind Configuration is Important](#3-why-tailwind-configuration-is-important)
+- [4. Creating the Configuration File](#4-creating-the-configuration-file)
+- [5. Configuration File Structure](#5-configuration-file-structure)
+- [6. Key Sections in `tailwind.config.js`](#6-key-sections-in-tailwindconfigjs)
+
+  - [6.1 `content`](#61-content)
+  - [6.2 `theme`](#62-theme)
+  - [6.3 `extend`](#63-extend)
+  - [6.4 `plugins`](#64-plugins)
+  - [6.5 `corePlugins`](#65-coreplugins)
+
+- [7. Customizing Theme Values](#7-customizing-theme-values)
+- [8. Extending vs Overwriting Theme](#8-extending-vs-overwriting-theme)
+- [9. Example: Custom Tailwind Configuration](#9-example-custom-tailwind-configuration)
+- [10. Real-Life Example #1: Custom Brand Colors & Fonts](#10-real-life-example-1-custom-brand-colors--fonts)
+- [11. Real-Life Example #2: Adding New Breakpoints](#11-real-life-example-2-adding-new-breakpoints)
+- [12. Best Practices & Common Mistakes](#12-best-practices--common-mistakes)
+- [13. Beginner-Friendly Practice Section](#13-beginner-friendly-practice-section)
+
+---
+
+## 1. Introduction
+
+TailwindCSS-এর আসল শক্তি হলো এর **configurable design system**। Tailwind একটি configuration ফাইল (`tailwind.config.js`) ব্যবহার করে যেখানে আপনি নিজের design tokens (colors, spacing, fonts, breakpoints ইত্যাদি) define করতে পারেন এবং সেগুলো project-wide ব্যবহার করতে পারেন।
+
+---
+
+## 2. What is the Tailwind Configuration File?
+
+**Definition:**
+`tailwind.config.js` হলো TailwindCSS-এর central configuration file, যেখানে আপনার প্রজেক্টের জন্য সমস্ত custom settings থাকে।
+
+---
+
+## 3. Why Tailwind Configuration is Important
+
+- **Consistency** → একবার config-এ define করে project-wide use।
+- **Customization** → আপনার design system-এর সাথে Tailwind match করানো।
+- **Maintainability** → future changes এক জায়গা থেকে manage করা।
+
+---
+
+## 4. Creating the Configuration File
+
+টার্মিনালে চালান:
+
+```bash
+npx tailwindcss init
+```
+
+**Output:**
+
+```plaintext
+Created Tailwind CSS config file: tailwind.config.js
+```
+
+> `--full` flag ব্যবহার করলে Tailwind-এর সমস্ত default config পাবেন।
+
+```bash
+npx tailwindcss init --full
+```
+
+---
+
+## 5. Configuration File Structure
+
+```js
+module.exports = {
+  content: [],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+```
+
+**Explanation:**
+
+- `content` → কোন ফাইলগুলো Tailwind classes scan করবে।
+- `theme` → color, spacing, font-size ইত্যাদি define বা override করবে।
+- `extend` → default values এর সাথে নতুন মান যোগ করবে।
+- `plugins` → extra functionalities add করবে।
+
+---
+
+## 6. Key Sections in `tailwind.config.js`
+
+### 6.1 `content`
+
+```js
+content: [
+  "./src/**/*.{html,js,ts,jsx,tsx}",
+  "./public/index.html",
+],
+```
+
+- Tailwind শুধু এই ফাইলগুলো scan করে unused classes remove করবে (PurgeCSS)।
+
+---
+
+### 6.2 `theme`
+
+```js
+theme: {
+  colors: {
+    primary: '#1e40af',
+    secondary: '#9333ea',
+  },
+  spacing: {
+    1: '0.25rem',
+    2: '0.5rem',
+    4: '1rem',
+  },
+}
+```
+
+- Default theme পুরোপুরি override করবে।
+
+---
+
+### 6.3 `extend`
+
+```js
+theme: {
+  extend: {
+    colors: {
+      brand: '#0f766e',
+    },
+  },
+}
+```
+
+- Default theme values রাখবে, তার সাথে নতুন মান add করবে।
+
+---
+
+### 6.4 `plugins`
+
+```js
+plugins: [
+  require('@tailwindcss/forms'),
+  require('@tailwindcss/typography'),
+],
+```
+
+- Extra Tailwind plugins যোগ করতে।
+
+---
+
+### 6.5 `corePlugins`
+
+```js
+corePlugins: {
+  preflight: false, // Tailwind-এর base reset বন্ধ করবে
+}
+```
+
+- Tailwind-এর core features on/off করা যায়।
+
+---
+
+## 7. Customizing Theme Values
+
+Example:
+
+```js
+theme: {
+  extend: {
+    fontFamily: {
+      sans: ['Inter', 'sans-serif'],
+    },
+    spacing: {
+      72: '18rem',
+      84: '21rem',
+      96: '24rem',
+    },
+  },
+}
+```
+
+- Fonts ও spacing custom করা হলো।
+
+---
+
+## 8. Extending vs Overwriting Theme
+
+- **Extend** → Default values রেখে তার সাথে নতুন value যোগ করা।
+- **Overwrite** → Default values বাদ দিয়ে শুধু আপনার value রাখা।
+
+Example (Overwrite colors):
+
+```js
+theme: {
+  colors: {
+    brand: "#ff0000";
+  }
+}
+```
+
+এতে default color palette হারিয়ে যাবে।
+
+---
+
+## 9. Example: Custom Tailwind Configuration
+
+```js
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {
+      colors: {
+        brand: {
+          light: "#3fbaeb",
+          DEFAULT: "#0fa9e6",
+          dark: "#0c87b8",
+        },
+      },
+      fontSize: {
+        xxs: "0.625rem",
+      },
+      screens: {
+        "3xl": "1920px",
+      },
+    },
+  },
+  plugins: [],
+};
+```
+
+---
+
+## 10. Real-Life Example #1: Custom Brand Colors & Fonts
+
+```js
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#1a73e8",
+        secondary: "#e37400",
+      },
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"],
+      },
+    },
+  },
+};
+```
+
+**Usage:**
+
+```html
+<h1 class="text-primary font-sans">Hello</h1>
+```
+
+---
+
+## 11. Real-Life Example #2: Adding New Breakpoints
+
+```js
+theme: {
+  extend: {
+    screens: {
+      'xs': '480px',
+      '3xl': '1920px',
+    },
+  },
+}
+```
+
+**Usage:**
+
+```html
+<div class="xs:text-sm 3xl:text-3xl">Responsive text</div>
+```
+
+---
+
+## 12. Best Practices & Common Mistakes
+
+**✅ Best Practices**
+
+- সর্বদা `extend` ব্যবহার করুন যদি default palette রাখতে চান।
+- `content` array সঠিকভাবে update করুন যাতে unused CSS remove হয়।
+- Brand-specific colors, fonts config এ রাখুন, inline না লিখুন।
+
+**❌ Common Mistakes**
+
+- Overwrite করে default theme হারিয়ে ফেলা (extend না করে)।
+- content paths ভুল দিয়ে production build-এ CSS missing হওয়া।
+
+---
+
+## 13. Beginner-Friendly Practice Section 🏋️
+
+**Goal:** নিজের brand color, font, spacing config করে HTML-এ ব্যবহার করা।
+
+**Steps:**
+
+1. `npx tailwindcss init` দিয়ে config file বানান।
+2. `theme.extend.colors` এ `brand` color add করুন।
+3. `theme.extend.fontFamily` এ custom font যোগ করুন।
+4. HTML-এ brand color দিয়ে button তৈরি করুন।
+
+**Example Config:**
+
+```js
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {
+      colors: {
+        brand: "#16a34a",
+      },
+      fontFamily: {
+        heading: ["Oswald", "sans-serif"],
+      },
+    },
+  },
+};
+```
+
+**Example HTML:**
+
+```html
+<button class="bg-brand text-white font-heading px-4 py-2 rounded">
+  Buy Now
+</button>
+```
+
+<div align="right">
+    <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-14: TailwindCSS `tailwind.config.js` — In Details
+
+## Table of Contents 📚
+
+- [1. Introduction](#1-introduction-)
+- [2. Where `tailwind.config.js` Fits in the Build](#2-where-tailwindconfigjs-fits-in-the-build-)
+- [3. How to Create the Config File](#3-how-to-create-the-config-file-)
+- [4. File Anatomy (Beginner → Advanced)](#4-file-anatomy-beginner--advanced-)
+
+  - [4.1 `content`](#41-content-)
+  - [4.2 `theme`](#42-theme-)
+  - [4.3 `theme.extend`](#43-themeextend-)
+  - [4.4 `screens` (Breakpoints)](#44-screens-breakpoints-)
+  - [4.5 Colors, Spacing, Fonts, Radius, Shadows](#45-colors-spacing-fonts-radius-shadows-)
+  - [4.6 `container` Config](#46-container-config-)
+  - [4.7 `plugins`](#47-plugins-)
+  - [4.8 `safelist`](#48-safelist-)
+  - [4.9 `prefix` & `important`](#49-prefix--important-)
+  - [4.10 `corePlugins`](#410-coreplugins-)
+  - [4.11 `darkMode`](#411-darkmode-)
+  - [4.12 `presets` (Multiple Config Merge)](#412-presets-multiple-config-merge-)
+
+- [5. Full Example Config (With Explanations)](#5-full-example-config-with-explanations-)
+- [6. Real-Life Example #1: Brand System + Typography](#6-real-life-example-1-brand-system--typography-)
+- [7. Real-Life Example #2: App Layout + Container + Breakpoints](#7-real-life-example-2-app-layout--container--breakpoints-)
+- [8. Best Practices ✅ & Common Mistakes ❌](#8-best-practices--common-mistakes-)
+- [9. Cheatsheet / Quick Reference](#9-cheatsheet--quick-reference-)
+- [10. Beginner-Friendly Practice Section 🏋️](#10-beginner-friendly-practice-section-)
+
+---
+
+## 1. Introduction ✨
+
+`tailwind.config.js` হলো TailwindCSS-এর **design system control center**। এখানে আপনি:
+
+- কোন ফাইল scan হবে (`content`)
+- theme tokens (colors, spacing, fonts, radius, shadows…)
+- responsive breakpoints (`screens`)
+- global container width
+- plugins, safelist, dark mode ইত্যাদি **define/extend/override** করতে পারেন।
+
+**Goal:** একবার config করলে প্রজেক্ট জুড়ে একই utilities দিয়ে **consistent** UI তৈরি হবে।
+
+---
+
+## 2. Where `tailwind.config.js` Fits in the Build 🔧
+
+Tailwind build করার সময়:
+
+1. `content` paths থেকে আপনার HTML/JSX/Blade ইত্যাদি scan করে **কোন utilities দরকার** বুঝে নেয়।
+2. `theme`/`extend` পড়ে **tokens** থেকে utilities generate করে।
+3. `plugins`, `darkMode`, `prefix` ইত্যাদি read করে **final CSS output** বানায়।
+
+এই কারণে config ঠিক থাকলে **CSS ছোট** হয় (unused classes বাদ), আর **UI consistent** থাকে।
+
+---
+
+## 3. How to Create the Config File 🧰
+
+```bash
+# minimal config
+npx tailwindcss init
+
+# or, get a full (verbose) config you can customize
+npx tailwindcss init --full
+```
+
+**How it Works:** প্রথম কমান্ডে ছোট skeleton, দ্বিতীয়টিতে ডিফল্টের পুরো কপি পাবেন—শেখার জন্য দারুণ।
+
+---
+
+## 4. File Anatomy (Beginner → Advanced) 🧩
+
+### 4.1 `content` 📂
+
+```js
+module.exports = {
+  content: ["./public/**/*.{html,js}", "./src/**/*.{js,ts,jsx,tsx,vue}"],
+};
+```
+
+**How it works:** Tailwind **এই ফাইলগুলোতেই** utility classes খুঁজে পায়। বাইরে থাকলে detect করবে না → class মিসিং হতে পারে বা CSS bloated হতে পারে।
+**Tip:** Paths ভুল হলে production build-এ স্টাইল “গায়েব” দেখাতে পারে।
+
+---
+
+### 4.2 `theme` 🎨
+
+```js
+module.exports = {
+  theme: {
+    colors: {
+      /* Overwrite entire palette (advanced) */
+    },
+    spacing: {
+      /* Overwrite entire spacing scale */
+    },
+    // ...
+  },
+};
+```
+
+**How it works:** `theme`-এ সেট করলে আপনি **ডিফল্ট পুরোটা replace** করছেন। Beginner দের জন্য এটা risky — তাই সাধারণত `extend` ব্যবহার করা safe (নিচে দেখুন)।
+
+---
+
+### 4.3 `theme.extend` ➕
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        brand: {
+          50: "#ecfeff",
+          100: "#cffafe",
+          200: "#a5f3fc",
+          300: "#67e8f9",
+          400: "#22d3ee",
+          500: "#06b6d4",
+          600: "#0891b2",
+          700: "#0e7490",
+          800: "#155e75",
+          900: "#164e63",
+        },
+      },
+      spacing: {
+        15: "3.75rem", // p-15, mt-15
+        4.5: "1.125rem", // p-4.5
+      },
+      fontFamily: {
+        heading: ["Poppins", "ui-sans-serif", "system-ui", "sans-serif"],
+        body: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+      },
+    },
+  },
+};
+```
+
+**How it works:** Default palette/scale **রেখে** নতুন values **যোগ** হলো। এখন `bg-brand-500`, `p-15`, `font-heading`—সব ready!
+
+---
+
+### 4.4 `screens` (Breakpoints) 📱💻
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      screens: {
+        xs: "480px",
+        "3xl": "1920px",
+      },
+    },
+  },
+};
+```
+
+**How it works:** Utilities-এ now `xs:` ও `3xl:` prefix available। Example: `xs:text-base 3xl:text-4xl`।
+**Why:** Fine-grained responsive control (small phones / giant displays)।
+
+---
+
+### 4.5 Colors, Spacing, Fonts, Radius, Shadows 🧱
+
+**Colors**
+
+```js
+extend: {
+  colors: {
+    primary: "#1a73e8",
+    secondary: "#e37400",
+    success: "#16a34a",
+    danger: "#dc2626",
+  }
+}
+```
+
+Use: `text-primary bg-secondary`
+
+**Spacing**
+
+```js
+extend: {
+  spacing: { 72: "18rem", 84: "21rem", 96: "24rem" }
+}
+```
+
+Use: `h-72 w-96`
+
+**Fonts**
+
+```js
+extend: {
+  fontFamily: {
+    sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+    heading: ["Poppins", "ui-sans-serif", "system-ui", "sans-serif"],
+  }
+}
+```
+
+Use: `font-sans font-heading`
+
+**Border Radius & Shadows**
+
+```js
+extend: {
+  borderRadius: { "2xl": "1rem", "3xl": "1.5rem" },
+  boxShadow: {
+    brand: "0 10px 30px -5px rgba(6,182,212,.35)",
+  }
+}
+```
+
+Use: `rounded-3xl shadow-brand`
+
+---
+
+### 4.6 `container` Config 📦
+
+```js
+extend: {
+  container: {
+    center: true,
+    padding: {
+      DEFAULT: "1rem",
+      md: "2rem",
+      lg: "3rem",
+    },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    }
+  }
+}
+```
+
+**How it works:** `class="container"` দিলে উপরের **center/padding/max-width** গুলো apply হবে।
+**Use case:** দ্রুত **page layout** alignment & gutters maintain করা।
+
+---
+
+### 4.7 `plugins` 🔌
+
+```js
+plugins: [
+  require("@tailwindcss/forms"),
+  require("@tailwindcss/typography"),
+  // require("@tailwindcss/aspect-ratio")
+];
+```
+
+**How it works:** Extra utilities/components যোগ করে।
+
+- `forms` → better form styles (`form-input`, `form-select` feel)
+- `typography` → `prose` ক্লাসে সুন্দর reading experience
+- `aspect-ratio` → সহজে aspect boxes
+
+---
+
+### 4.8 `safelist` 🛡️
+
+```js
+safelist: [
+  "bg-brand-500",
+  "text-brand-700",
+  { pattern: /(bg|text|border)-(red|green|blue)-(100|500|700)/ },
+];
+```
+
+**How it works:** Dynamic class (e.g., runtime strings) purge হয়ে যাওয়ার ভয় থাকলে **force-include** করুন।
+**Use case:** CMS-driven / user-generated themes।
+
+---
+
+### 4.9 `prefix` & `important` 🏷️
+
+```js
+prefix: "tw-",
+important: true,
+```
+
+**How it works:**
+
+- `prefix: "tw-"` → সব utility এখন `tw-bg-red-500` form নেবে। **Why:** Bootstrap/legacy CSS clash এড়ানো।
+- `important: true` → সব utilities `!important` পাবে। **Use with care** (global override শক্তিশালী কিন্তু অতিরিক্ত হলে debug কষ্টকর)।
+
+---
+
+### 4.10 `corePlugins` 🧩
+
+```js
+corePlugins: {
+  preflight: true, // set false to disable Tailwind's base reset
+}
+```
+
+**How it works:** Tailwind-এর নির্দিষ্ট core ফিচার on/off।
+**Use case:** ইতোমধ্যে অন্য CSS reset ব্যবহার করলে `preflight` off করতে পারেন।
+
+---
+
+### 4.11 `darkMode` 🌙
+
+```js
+darkMode: ["class"], // or 'media'
+```
+
+**How it works:**
+
+- `"class"` → `<html class="dark">` দিলে dark utilities active।
+- `"media"` → prefers-color-scheme অনুযায়ী auto।
+  Use: `dark:bg-slate-900 dark:text-white`
+
+---
+
+### 4.12 `presets` (Multiple Config Merge) 🧬
+
+```js
+presets: [
+  require("./shared/tw-preset.js"), // team-wide tokens
+];
+```
+
+**How it works:** আগে থেকে বানানো preset configs **merge** হয়। বড় টিমে **shared design tokens** রাখা সহজ।
+
+---
+
+## 5. Full Example Config (With Explanations) 🧪
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./public/**/*.{html,js}", "./src/**/*.{js,ts,jsx,tsx,vue}"],
+  darkMode: ["class"], // 1) class strategy for dark mode
+  prefix: "", // 2) no prefix; use "tw-" if you need isolation
+  important: false, // 3) set true only if you need global !important
+  theme: {
+    extend: {
+      colors: {
+        // 4) brand palette
+        brand: {
+          50: "#ecfeff",
+          100: "#cffafe",
+          200: "#a5f3fc",
+          300: "#67e8f9",
+          400: "#22d3ee",
+          500: "#06b6d4",
+          600: "#0891b2",
+          700: "#0e7490",
+          800: "#155e75",
+          900: "#164e63",
+        },
+        primary: "#1a73e8",
+        danger: "#dc2626",
+      },
+      screens: {
+        // 5) extra breakpoints
+        xs: "480px",
+        "3xl": "1920px",
+      },
+      spacing: {
+        // 6) custom spacing
+        15: "3.75rem",
+        4.5: "1.125rem",
+      },
+      fontFamily: {
+        // 7) font stacks
+        heading: ["Poppins", "ui-sans-serif", "system-ui", "sans-serif"],
+        body: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+      },
+      borderRadius: {
+        // 8) big radius
+        "2xl": "1rem",
+        "3xl": "1.5rem",
+      },
+      boxShadow: {
+        // 9) brand shadow
+        brand: "0 12px 32px -6px rgba(6,182,212,.35)",
+      },
+      container: {
+        // 10) layout container
+        center: true,
+        padding: { DEFAULT: "1rem", md: "2rem", lg: "3rem" },
+        screens: {
+          sm: "640px",
+          md: "768px",
+          lg: "1024px",
+          xl: "1280px",
+          "2xl": "1536px",
+        },
+      },
+    },
+  },
+  safelist: [
+    // 11) force-include classes
+    "bg-brand-500",
+    "text-brand-700",
+    { pattern: /(bg|text|border)-(red|green|blue)-(100|500|700)/ },
+  ],
+  corePlugins: { preflight: true }, // 12) base reset on
+  plugins: [
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
+    // require("@tailwindcss/aspect-ratio"),
+  ],
+};
+```
+
+**How it works (Highlights):**
+
+- `content` ঠিক থাকায় Purge সঠিক—CSS ছোট।
+- `extend` দিয়ে default রেখে নতুন tokens add—safe & scalable।
+- `darkMode: "class"` → আপনি নিজে কন্ট্রোল নেন (toggle button ইত্যাদি)।
+- `safelist` → dynamic class miss না হয়।
+- `plugins` → forms/prose ready to use।
+
+---
+
+## 6. Real-Life Example #1: Brand System + Typography 🖋️
+
+**Config (relevant part):**
+
+```js
+extend: {
+  colors: {
+    brand: { DEFAULT:"#0fa9e6", dark:"#0c87b8" }
+  },
+  fontFamily: { heading:["Poppins","ui-sans-serif"], body:["Inter","ui-sans-serif"] }
+}
+```
+
+**HTML:**
+
+```html
+<h1 class="font-heading text-brand">Welcome</h1>
+<p class="font-body text-slate-600">Consistent fonts & colors via config.</p>
+<article class="prose prose-slate">
+  <h2>Docs</h2>
+  <p>Typography plugin makes long-form text beautiful.</p>
+</article>
+```
+
+**How it works:** Headings/Body fonts & brand colors **এক জায়গায় config** → project জুড়ে একরকম দেখাবে।
+
+---
+
+## 7. Real-Life Example #2: App Layout + Container + Breakpoints 🧭
+
+**HTML:**
+
+```html
+<header class="container flex items-center justify-between py-4">
+  <a class="font-heading text-brand" href="#">BrandX</a>
+  <nav class="hidden md:flex gap-6">
+    <a class="hover:text-brand" href="#">Home</a>
+    <a class="hover:text-brand" href="#">Pricing</a>
+  </nav>
+  <button class="md:hidden p-2 rounded bg-brand text-white">Menu</button>
+</header>
+```
+
+**How it works:**
+
+- `container` config অনুযায়ী **center + padding** বসে গেছে।
+- `md:` breakpoint থেকে nav visible, small-এ menu button visible — **responsive rules** config-driven।
+
+---
+
+## 8. Best Practices ✅ & Common Mistakes ❌
+
+**✅ Best Practices**
+
+1. **Prefer `extend`** → default palette/scale রাখুন, শুধু add করুন।
+2. **Keep `content` accurate** → ভুল path দিলে classes purge হয়ে যাবে।
+3. **Tokens first** → brand color, spacing, fonts সব config-এ—inline arbitrary কমান।
+4. **Small, named scales** → `15: 3.75rem` মত দরকারি add করুন; ফোলাবেন না।
+5. **Use plugins wisely** → Typography/Forms প্রকৃত benefit থাকলেই add করুন।
+
+**❌ Common Mistakes**
+
+- Entire `theme` overwrite করে default palette হারানো।
+- `content` এ `node_modules` বা বড় অপ্রয়োজনীয় path দেওয়া → build slow/heavy।
+- Prefix/important অকারণে on করে debug জটিল করা।
+- `safelist` ভুলে dynamic classes purge হয়ে যাওয়া।
+
+---
+
+## 9. Cheatsheet / Quick Reference 📝
+
+- **Create config:** `npx tailwindcss init`
+- **Scan files:** `content: ["./public/**/*.{html,js}","./src/**/*.{js,tsx}"]`
+- **Extend tokens:** `theme.extend.colors / spacing / fontFamily / screens`
+- **Container:** `theme.extend.container.center=true; padding={...}`
+- **Dark mode:** `darkMode: "class" | "media"`
+- **Safelist:** `safelist: ["bg-brand-500", { pattern: /text-(red|green)-500/ }]`
+- **Plugins:** `@tailwindcss/forms`, `@tailwindcss/typography`
+- **Isolation:** `prefix: "tw-"`, `important: true` (only if needed)
+
+---
+
+## 10. Beginner-Friendly Practice Section 🏋️
+
+### Task A — **Create Your Brand Token Set**
+
+1. `extend.colors.brand` palette add করুন (৩–৫ টি shade)।
+2. `extend.fontFamily.heading/body` সেট করুন (Google Fonts লিঙ্ক দিন)।
+3. একটি button বানান: `class="bg-brand text-white font-heading px-4 py-2 rounded"`।
+
+**Hint Config:**
+
+```js
+extend: {
+  colors: { brand: { DEFAULT:"#06b6d4", 700:"#0e7490" } },
+  fontFamily: { heading:["Poppins","sans-serif"], body:["Inter","sans-serif"] },
+}
+```
+
+---
+
+### Task B — **Responsive Layout with Custom Screens**
+
+1. `screens.xs = "480px"` এবং `screens.3xl = "1920px"` add করুন।
+2. Hero heading-এ `xs:text-4xl md:text-6xl 3xl:text-8xl` দিন।
+
+---
+
+### Task C — **Container + Typography**
+
+1. `container.center=true` ও custom padding দিন।
+2. একটি `prose` সেকশন যোগ করে docs-like text বানান।
+3. `prose-headings:text-brand` utility apply করুন (typography modifiers)।
+
+---
+
+### Task D — **Safelist for Dynamic Styles**
+
+1. `safelist`-এ pattern যোগ করুন: `/bg-(red|green|blue)-(100|500|700)/`
+2. JavaScript থেকে যেকোনো রং পাস করলেও purge হবে না।
+
+<div align="right">
+    <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-15:
+
+<div align="right">
+    <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-16:
+
+<div align="right">
+    <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-17:
 
 <div align="right">
     <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
