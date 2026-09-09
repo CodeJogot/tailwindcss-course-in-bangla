@@ -18,11 +18,11 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 |                [07](#chapter-07-tailwindcss-functions--directives)                 |                                [TailwindCSS Functions & Directives](#chapter-07-tailwindcss-functions--directives)                                |     Watch Now     |
 |                   [08](#chapter-08-tailwindcss-apply-directive)                    |                                     [TailwindCSS `@apply` Directive](#chapter-08-tailwindcss-apply-directive)                                     |     Watch Now     |
 |                   [09](#chapter-09-tailwindcss-layer-directive)                    |                                     [TailwindCSS `@layer` Directive](#chapter-09-tailwindcss-layer-directive)                                     |     Watch Now     |
-|                  [10](#chapter-10-tailwindcss-variants-directive)                  |                                  [TailwindCSS `@variants` Directive](#chapter-10-tailwindcss-variants-directive)                                  |     Watch Now     |   
-|           [11](#chapter-11-tailwindcss-responsive--screen-directives)                                                                         |     [TailwindCSS Responsive & Screen Directives](#chapter-11-tailwindcss-responsive--screen-directives)                                                                                                                                              |     Watch Now     |
-|        [12](#chapter-12-tailwindcss-theme--screen-functions)                                                                            |      [TailwindCSS `theme()` & `screen()` Functions](#chapter-12-tailwindcss-theme--screen-functions)                                                                                                                                             |     Watch Now     |
-|          [13](#chapter-13-tailwindcss-configurations)                                                                          |           [TailwindCSS Configurations](#chapter-13-tailwindcss-configurations)                                                                                                                                        |     Watch Now     |
-|      [14](#chapter-14-tailwindcss-tailwindconfigjs--in-details)                                                                              |    [TailwindCSS `tailwind.config.js` — In Details](#chapter-14-tailwindcss-tailwindconfigjs--in-details)                                                                                                                                               |     Watch Now     |
+|                                       [10]()                                       |                                       [TailwindCSS 'utilities' for variants such as hover, focus, md etc]()                                       |     Watch Now     |
+|            [11](#chapter-11-tailwindcss-responsive--screen-directives)             |                        [TailwindCSS Responsive & Screen Directives](#chapter-11-tailwindcss-responsive--screen-directives)                        |     Watch Now     |
+|               [12](#chapter-12-tailwindcss-theme--screen-functions)                |                          [TailwindCSS `theme()` & `screen()` Functions](#chapter-12-tailwindcss-theme--screen-functions)                          |     Watch Now     |
+|                    [13](#chapter-13-tailwindcss-configurations)                    |                                       [TailwindCSS Configurations](#chapter-13-tailwindcss-configurations)                                        |     Watch Now     |
+|             [14](#chapter-14-tailwindcss-tailwindconfigjs--in-details)             |                       [TailwindCSS `tailwind.config.js` — In Details](#chapter-14-tailwindcss-tailwindconfigjs--in-details)                       |     Watch Now     |
 |                                                                                    |                                                                                                                                                   |     Watch Now     |
 |                                                                                    |                                                                                                                                                   |     Watch Now     |
 |                                                                                    |                                                                                                                                                   |     Watch Now     |
@@ -148,7 +148,7 @@ Bootstrap একটি **Component-based CSS framework**, যেখানে অ
 | 🎨 Custom Design          | 100% customizable            | কিছুটা সীমাবদ্ধ                |
 | 🧩 Component Structure    | নিজেই তৈরি করতে হয়           | আগে থেকেই দেয়া থাকে            |
 | 💼 Ready-made UI          | No                           | Yes (Buttons, Cards, Navbar)   |
-| 🛠 Customization           | Tailwind config দিয়ে সহজ     | Bootstrap override করে করতে হয় |
+| 🛠 Customization          | Tailwind config দিয়ে সহজ     | Bootstrap override করে করতে হয় |
 | 📏 File Size (Production) | ছোট (JIT support)            | তুলনামূলক বড়                   |
 | 📱 Responsive Classes     | খুব flexible                 | আছে, তবে সীমিত                 |
 | 🧠 Learning Curve         | শুরুতে একটু কঠিন             | সহজ এবং দ্রুত শিখা যায়         |
@@ -255,7 +255,6 @@ Tailwind CSS development দ্রুত করে তোলে এই কার
 1. [What You'll Learn in This Chapter](#what-youll-learn-in-this-chapter)
 2. [Minimum Requirements](#minimum-requirements)
 3. [Different Ways to Install Tailwind CSS](#different-ways-to-install-tailwind-css)
-
    - [A. Using CDN (Quick Start)](#a-using-cdn-quick-start)
    - [B. Using Node.js (Official Method)](#b-using-nodejs-official-method)
    - [C. Using Vite + Tailwind CSS (Modern Setup)](#c-using-vite--tailwind-css-modern-setup)
@@ -1234,7 +1233,7 @@ module.exports = { darkMode: "media" /* ... */ };
       // system
       document.documentElement.classList.toggle(
         "dark",
-        window.matchMedia("(prefers-color-scheme: dark)").matches
+        window.matchMedia("(prefers-color-scheme: dark)").matches,
       );
     }
   };
@@ -1396,7 +1395,6 @@ Base layer-এ দিন:
 
 - **Chrome DevTools** → Command Palette → “Rendering” → Emulate CSS media feature: `prefers-color-scheme: dark`.
 - **Common mistakes**
-
   1. `tailwind.config.js` এ `darkMode` না সেট করা → `dark:` কাজ করবে না।
   2. `.dark` ভুল element-এ দেয়া (e.g., `<body>` নয়, **`<html>`** এ দেওয়া best).
   3. Content paths ভুল → classes purge হয়ে যাচ্ছে।
@@ -1485,12 +1483,12 @@ Base layer-এ দিন:
     <script>
       const saved = localStorage.getItem("theme-mode");
       const wantsDark = window.matchMedia(
-        "(prefers-color-scheme: dark)"
+        "(prefers-color-scheme: dark)",
       ).matches;
       const mode = saved || "system";
       document.documentElement.classList.toggle(
         "dark",
-        mode === "dark" || (mode === "system" && wantsDark)
+        mode === "dark" || (mode === "system" && wantsDark),
       );
     </script>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -1583,17 +1581,17 @@ Base layer-এ দিন:
       const apply = (m) => {
         localStorage.setItem("theme-mode", m);
         const sysDark = window.matchMedia(
-          "(prefers-color-scheme: dark)"
+          "(prefers-color-scheme: dark)",
         ).matches;
         document.documentElement.classList.toggle(
           "dark",
-          m === "dark" || (m === "system" && sysDark)
+          m === "dark" || (m === "system" && sysDark),
         );
       };
       document
         .querySelectorAll("[data-theme]")
         .forEach((b) =>
-          b.addEventListener("click", () => apply(b.dataset.theme))
+          b.addEventListener("click", () => apply(b.dataset.theme)),
         );
       // react to system changes if 'system'
       window
@@ -1644,12 +1642,10 @@ A: দুটো asset ব্যবহার করুন (light/dark) বা `da
 - [2. What are Directives?](#2-what-are-directives)
 - [3. What are Functions?](#3-what-are-functions)
 - [4. TailwindCSS v4 Directives in Detail](#4-tailwindcss-v4-directives-in-detail)
-
   - [4.1 `@import`](#41-import)
   - [4.2 `@theme`](#42-theme)
 
 - [5. TailwindCSS v4 Functions in Detail](#5-tailwindcss-v4-functions-in-detail)
-
   - [5.1 `theme()`](#51-theme)
   - [5.2 `screen()`](#52-screen)
 
@@ -2226,7 +2222,6 @@ TailwindCSS মূলত utility-first approach ফলো করে—মান�
 - [3. Why `@layer` is Important?](#3-why-layer-is-important)
 - [4. How `@layer` Works](#4-how-layer-works)
 - [5. Available Layers in TailwindCSS](#5-available-layers-in-tailwindcss)
-
   - [5.1 `base`](#51-base)
   - [5.2 `components`](#52-components)
   - [5.3 `utilities`](#53-utilities)
@@ -2515,404 +2510,7 @@ Tailwind CSS internally এই ক্রমে styles apply করে:
     <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
-# Chapter-10: TailwindCSS `@variants` Directive
-
-## Table of Contents 📚
-
-- [1. Introduction](#1-introduction-)
-- [2. What is `@variants`?](#2-what-is-variants-)
-- [3. Why & When to Use `@variants`](#3-why--when-to-use-variants-)
-- [4. How `@variants` Works (Concept)](#4-how-variants-works-concept-)
-- [5. Basic Syntax (with Full Explanation)](#5-basic-syntax-with-full-explanation-)
-- [6. Example #1: Hover Variant Utility](#6-example-1-hover-variant-utility-)
-- [7. Example #2: Multiple Variants (hover + focus)](#7-example-2-multiple-variants-hover--focus-)
-- [8. Example #3: Responsive Variants (sm, md)](#8-example-3-responsive-variants-sm-md-)
-- [9. Real-Life Component #1: Button with States](#9-real-life-component-1-button-with-states-)
-- [10. Real-Life Component #2: Card Shadow on Breakpoints](#10-real-life-component-2-card-shadow-on-breakpoints-)
-- [11. Best Practices ✅ & Common Mistakes ❌](#11-best-practices----common-mistakes-)
-- [12. Beginner-Friendly Practice Section 🏋️](#12-beginner-friendly-practice-section-)
-
----
-
-## 1. Introduction 🧠
-
-TailwindCSS-এ **variants** মানে একটি utility-এর **contextual বা state-based** রূপ—যেমন `hover:`, `focus:`, `active:`, `disabled:`, অথবা responsive variants যেমন `sm:`, `md:` ইত্যাদি।
-**`@variants` directive** ব্যবহার করে আপনি **নিজের custom utilities**-কে এসব variant-এ **auto-generate** করাতে পারেন—যাতে `hover:your-utility`, `sm:your-utility`—এর মত ক্লাস তৈরি হয়।
-
----
-
-## 2. What is `@variants`? 🔍
-
-`@variants` হলো একটি CSS directive যা Tailwind-এর compiler-কে বলে—
-
-> “এই ব্লকের ভিতরের ক্লাসগুলোর **এই-এই variant** versionগুলোও বানিয়ে দাও।”
-
-এর মানে আপনি একবার **মূল utility** লিখবেন; বাকি hover/focus/responsive versionগুলো Tailwind বানিয়ে দেবে।
-
----
-
-## 3. Why & When to Use `@variants` 🧰
-
-- **Why:** একই স্টাইলের variant (hover/focus/active/…/sm/md/…) বারবার লিখতে না হয়—এক জায়গায় define, অনেক জায়গায় use।
-- **When:**
-
-  1. custom utility বানাতে হবে, এবং
-  2. সেই utility বিভিন্ন state/responsive breakpoint-এ ব্যবহার হবে।
-
-> নোট: অনেক সময় **বিকল্প হিসেবে** আপনি `@layer utilities`-এ utility লিখে **HTML-এ সরাসরি variant prefix** (যেমন `hover:` বা `md:`) ব্যবহার করেন। তবে `@variants` আপনাকে ঐ utility-এর variant **আগেই generate** করে রাখতে দেয়।
-
----
-
-## 4. How `@variants` Works (Concept) ⚙️
-
-1. আপনি `@variants hover, focus, md`—এভাবে **এক বা একাধিক variant** উল্লেখ করেন।
-2. ব্লকের ভিতরে আপনার **custom utility** বা **component-like utility** লেখেন।
-3. Tailwind compile করার সময় ঐ utility-র variant-prefixed **নতুন ক্লাস**গুলো বানায়।
-
----
-
-## 5. Basic Syntax (with Full Explanation) ✍️
-
-```css
-@import "tailwindcss";
-
-/* 1) variants ঘোষণা */
-@variants hover, focus {
-  /* 2) আপনার custom utility */
-  .u-brand-outline {
-    border: 2px solid #3b82f6; /* নীল outline */
-    color: #3b82f6; /* নীল টেক্সট */
-    background: transparent; /* ব্যাকগ্রাউন্ড ফাঁকা */
-    padding: 0.5rem 1rem; /* 8px x 16px */
-    border-radius: 0.375rem; /* 6px */
-    transition: 0.2s ease; /* স্মুথ ট্রানজিশন */
-  }
-}
-```
-
-**কিভাবে কাজ করছে:**
-
-- `@import "tailwindcss";` → Tailwind-কে project CSS-এ এনেছে।
-- `@variants hover, focus { ... }` → Tailwind-কে বলছে “ভিতরের utility-গুলোর **hover:** ও **focus:** prefixed versionও বানাও।”
-- `.u-brand-outline { ... }` → আপনার মূল utility class।
-- Compile হলে আপনি **এই তিনটি** ব্যবহার করতে পারবেন:
-
-  - `.u-brand-outline` (সাধারণ)
-  - `.hover:u-brand-outline` (শুধু hover-এ)
-  - `.focus:u-brand-outline` (শুধু focus-এ)
-
-**HTML ব্যবহার (উদাহরণ):**
-
-```html
-<button class="u-brand-outline">Normal</button>
-<button class="hover:u-brand-outline">Hover me</button>
-<button class="focus:u-brand-outline">Focus me</button>
-```
-
-- প্রথম বাটনে সবসময় স্টাইল থাকবে।
-- দ্বিতীয় বাটনে শুধুমাত্র **hover** করলে স্টাইল আসবে।
-- তৃতীয় বাটনে শুধুমাত্র **focus** (ক্লিক/কীবোর্ড ট্যাবে) করলে স্টাইল আসবে।
-
----
-
-## 6. Example #1: Hover Variant Utility 🖱️
-
-```css
-@import "tailwindcss";
-
-@variants hover {
-  .u-glow {
-    /* বেসিক নীল বক্স-শেডো glow */
-    box-shadow: 0 0 10px rgba(59, 130, 246, 0.6);
-  }
-}
-```
-
-**কোড ব্যাখ্যা:**
-
-- `@variants hover` → `.u-glow`-এর **hover version** generate করবে।
-- `box-shadow` → নীলাভ glow effect।
-
-**HTML:**
-
-```html
-<div class="p-4 border rounded">No Glow</div>
-<div class="hover:u-glow p-4 border rounded">Hover to Glow</div>
-```
-
-- প্রথম div-এ কিছুই হবে না।
-- দ্বিতীয় div-এ **hover** করলেই glow effect দেখা যাবে (কারণ ক্লাসটি `hover:u-glow`)।
-
----
-
-## 7. Example #2: Multiple Variants (hover + focus) 🧩
-
-```css
-@import "tailwindcss";
-
-@variants hover, focus {
-  .u-underline-animated {
-    position: relative;
-  }
-  .u-underline-animated::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    width: 0;
-    height: 2px;
-    background: currentColor; /* text color অনুযায়ী underline */
-    transition: width 0.2s ease;
-  }
-  /* hover/focus হলে width 100% হবে — এই rule টি variant দিয়ে তৈরি হবে */
-  .u-underline-animated:hover::after,
-  .u-underline-animated:focus::after {
-    width: 100%;
-  }
-}
-```
-
-**কোড ব্যাখ্যা:**
-
-- `@variants hover, focus` → `.u-underline-animated`-এর hover ও focus version বানাবে।
-- pseudo-element `::after` দিয়ে underline animation করা হয়েছে।
-- `currentColor` → টেক্সটের রঙের সাথে underline রঙ মিলবে।
-- `transition` → underline ধীরে ধীরে বাড়বে।
-
-**HTML:**
-
-```html
-<a href="#" class="u-underline-animated">Read more</a>
-```
-
-- Normal অবস্থায় underline width = 0, তাই দেখা যায় না।
-- Hover/Focus করলে width = 100% → animate হয়ে underline দেখা যায়।
-
-> টিপ: এখানে আমরা variant-prefixed ক্লাস আলাদা করে লিখিনি, কারণ utility-টাই pseudo-selector সহ design করা। তবুও `@variants` ব্লক থাকার ফলে hover/focus context-এ এই rules গুলো consistent ভাবে apply হবে।
-
----
-
-## 8. Example #3: Responsive Variants (sm, md) 📱💻
-
-```css
-@import "tailwindcss";
-
-@variants sm, md {
-  .u-card-pad {
-    padding: 0.75rem; /* 12px */
-    border-radius: 0.5rem; /* 8px */
-    background: white;
-  }
-}
-```
-
-**কোড ব্যাখ্যা:**
-
-- `@variants sm, md` → `.u-card-pad`-এর responsive versions তৈরি করবে:
-
-  - `.sm:u-card-pad` → small breakpoint থেকে প্রযোজ্য
-  - `.md:u-card-pad` → medium breakpoint থেকে প্রযোজ্য
-
-- Padding/rounded/background সহ একটি ছোট utility তৈরি হয়েছে।
-
-**HTML:**
-
-```html
-<div class="p-2 bg-slate-50">No variant</div>
-<div class="sm:u-card-pad">From small screens & up</div>
-<div class="md:u-card-pad">From medium screens & up</div>
-```
-
-- প্রথমটি normal।
-- দ্বিতীয়টি **sm** থেকে padding+rounded+bg পাবে।
-- তৃতীয়টি **md** থেকে এই স্টাইল পাবে।
-
----
-
-## 9. Real-Life Component #1: Button with States 🔘
-
-```css
-@import "tailwindcss";
-
-/* hover + focus + disabled ভ্যারিয়েন্টস */
-@variants hover, focus, disabled {
-  .u-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 1rem; /* 8px 16px */
-    border-radius: 0.375rem; /* 6px */
-    font-weight: 600;
-    color: white;
-    background: #2563eb; /* blue-600 */
-    transition: background 0.15s ease, transform 0.15s ease;
-  }
-
-  /* hover হলে একটু dark */
-  .u-btn:hover {
-    background: #1d4ed8; /* blue-700 */
-  }
-
-  /* focus হলে outline ring */
-  .u-btn:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.35);
-  }
-
-  /* disabled হলে dim + no pointer */
-  .u-btn:disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
-    transform: none;
-  }
-}
-```
-
-**কিভাবে কাজ করছে:**
-
-- `@variants hover, focus, disabled` → `.u-btn`-এর hover/focus/disabled context rules গুলোকে Tailwind-এর variant system-এর সাথে গেঁথে দেয়।
-- `.u-btn` → বেস স্টাইল।
-- `:hover`, `:focus`, `:disabled` → state অনুযায়ী ভিজ্যুয়াল পরিবর্তন।
-
-**HTML:**
-
-```html
-<button class="u-btn">Save</button>
-<button class="u-btn" disabled>Disabled</button>
-```
-
-- প্রথমটি normal + hover/focus এ রিঅ্যাক্ট করবে।
-- দ্বিতীয়টি disabled → dim + not-allowed cursor।
-
----
-
-## 10. Real-Life Component #2: Card Shadow on Breakpoints 🧱
-
-```css
-@import "tailwindcss";
-
-/* sm এবং md responsive variants */
-@variants sm, md {
-  .u-soft-card {
-    background: white;
-    border-radius: 0.75rem; /* 12px */
-    padding: 1rem; /* 16px */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-    transition: box-shadow 0.2s ease;
-  }
-
-  /* sm থেকে hover করলে shadow বাড়বে */
-  .u-soft-card:hover {
-    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
-  }
-}
-```
-
-**কিভাবে কাজ করছে:**
-
-- `.sm:u-soft-card` দিলে **ছোট ডিভাইস থেকে** কার্ডের বেস স্টাইল আসবে।
-- একই ক্লাসে hover করলে shadow বৃদ্ধি পাবে—`@variants sm` ব্লকে থাকায় responsive context-এর সাথে সামঞ্জস্য থাকে।
-
-**HTML:**
-
-```html
-<div class="p-4 bg-slate-50">Plain</div>
-<div class="sm:u-soft-card">Responsive soft card (sm+)</div>
-<div class="md:u-soft-card">Responsive soft card (md+)</div>
-```
-
----
-
-## 11. Best Practices ✅ & Common Mistakes ❌
-
-**✅ Best Practices**
-
-1. **Utility scope ছোট রাখুন**—single-purpose রাখলে reuse সহজ হয়।
-2. **Meaningful নাম দিন**—`u-` বা `util-` prefix ব্যবহার করলে বোঝা যায় এটা utility।
-3. **Just-enough variants**—অপ্রয়োজনীয় variant add করলে CSS সাইজ বাড়ে।
-4. **Combine with `@layer utilities`**—অনেক টিম `@variants` ব্লককে `@layer utilities`-এর ভেতরে রাখে order স্পষ্ট রাখতে।
-
-**❌ Common Mistakes**
-
-- **Component-like বড় ব্লক** `@variants`-এ ফেলা—utilities ছোট ও ফোকাসড রাখুন।
-- **সব variants জুড়ে দেয়া**—প্রকৃতপক্ষে যেগুলো দরকার শুধু সেগুলো দিন।
-- **Plain CSS লেখা কিন্তু variant prefix না ব্যবহার**—লক্ষ্য utility হলে variant prefix (`hover:your-utility`) দিয়ে ব্যবহার দেখুন।
-
----
-
-## 12. Beginner-Friendly Practice Section 🏋️
-
-### Practice Project: **“Interactive Badges”** 🏷️
-
-**Goal:** একটি `.u-badge` utility বানাবেন যেটি—
-
-- **hover** করলে রঙ গাঢ় হবে,
-- **focus** করলে ring দেখাবে,
-- **sm** থেকে padding একটু বাড়বে।
-
-**Step-by-step CSS (with explanation):**
-
-```css
-@import "tailwindcss";
-
-/* 1) প্রয়োজনীয় variants ঘোষণা করছি */
-@variants hover, focus, sm {
-  /* 2) মূল utility */
-  .u-badge {
-    display: inline-block; /* ব্যাজ inline text-এর সাথে বসবে */
-    padding: 0.25rem 0.5rem; /* 4px 8px */
-    border-radius: 9999px; /* pill shape */
-    background: #f59e0b; /* amber-500 */
-    color: #111827; /* gray-900 */
-    font-weight: 600; /* semi-bold look */
-    transition: 0.15s ease; /* smooth interaction */
-  }
-
-  /* 3) hover state গাঢ় */
-  .u-badge:hover {
-    background: #d97706; /* amber-600 */
-  }
-
-  /* 4) focus ring */
-  .u-badge:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.35);
-  }
-
-  /* 5) sm breakpoint থেকে padding একটু বাড়াই */
-  @media (min-width: 640px) {
-    .u-badge {
-      padding: 0.375rem 0.75rem; /* 6px 12px */
-    }
-  }
-}
-```
-
-**HTML (try it):**
-
-```html
-<span class="u-badge" tabindex="0">New</span>
-<span class="hover:u-badge">Hover Only</span>
-<span class="focus:u-badge" tabindex="0">Focus Only</span>
-<span class="sm:u-badge">Small+ screens</span>
-```
-
-**কিভাবে কাজ করছে (এক নজরে):**
-
-- একটাই utility `.u-badge` লিখে `hover`, `focus`, `sm`—এই তিন **context**-এ ব্যবহারের সুযোগ পেলেন।
-- `hover:u-badge` → hover করলে স্টাইল নেবে।
-- `focus:u-badge` → কীবোর্ড ট্যাব/ক্লিক ফোকাসে ring আসবে।
-- `sm:u-badge` → ছোট স্ক্রিনের উপরে padding বড় হবে।
-
-**Your Tasks ✍️**
-
-1. **`active` variant** যোগ করে active হলে badge একটু scale up করবে।
-2. **`md` variant**-এ font-size বাড়িয়ে দিন।
-3. আরেকটি utility `.u-badge-outline` বানান—transparent ব্যাকগ্রাউন্ড + বর্ডার, hover/focus আচরণ একই।
-
-<div align="right">
-    <b><a href="#learn-tailwind-css-in-30-chapters">↥ Go to Top</a></b>
-</div>
+# Chapter-10:
 
 # Chapter-11: TailwindCSS Responsive & Screen Directives
 
@@ -3271,7 +2869,6 @@ theme('property.key')
 
 - **property.key** → Tailwind config-এর ভিতরের path
 - Example paths:
-
   - `colors.blue.500`
   - `spacing.4`
   - `fontSize.xl`
@@ -3504,7 +3101,6 @@ theme('property.key')
 - [4. Creating the Configuration File](#4-creating-the-configuration-file)
 - [5. Configuration File Structure](#5-configuration-file-structure)
 - [6. Key Sections in `tailwind.config.js`](#6-key-sections-in-tailwindconfigjs)
-
   - [6.1 `content`](#61-content)
   - [6.2 `theme`](#62-theme)
   - [6.3 `extend`](#63-extend)
@@ -3843,7 +3439,6 @@ module.exports = {
 - [2. Where `tailwind.config.js` Fits in the Build](#2-where-tailwindconfigjs-fits-in-the-build-)
 - [3. How to Create the Config File](#3-how-to-create-the-config-file-)
 - [4. File Anatomy (Beginner → Advanced)](#4-file-anatomy-beginner--advanced-)
-
   - [4.1 `content`](#41-content-)
   - [4.2 `theme`](#42-theme-)
   - [4.3 `theme.extend`](#43-themeextend-)
